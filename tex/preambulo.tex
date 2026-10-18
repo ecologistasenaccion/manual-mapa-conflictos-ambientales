@@ -1,0 +1,119 @@
+% ---------------------------------------------------------------------------
+%  Preámbulo LaTeX del manual (formato PDF)
+%  Se inserta en la cabecera del documento generado por Quarto.
+% ---------------------------------------------------------------------------
+
+% ----------------------------- Colores de marca ----------------------------
+\definecolor{eaNaranja}{HTML}{F39200}
+\definecolor{eaNaranjaClaro}{HTML}{FFD79A}
+\definecolor{eaVerde}{HTML}{4F8A2B}
+\definecolor{eaVerdeOscuro}{HTML}{27451C}
+\definecolor{eaGris}{HTML}{4A5568}
+\definecolor{eaGrisClaro}{HTML}{F2F4EE}
+\definecolor{eaRojo}{HTML}{C0392B}
+\definecolor{eaAmbar}{HTML}{E6A700}
+
+% ----------------------- Dibujo de la portada (TikZ) -----------------------
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% ------------------------------- Tipografía --------------------------------
+\usepackage[default,scale=0.96]{sourcesanspro}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+
+% ------------------------- Encabezados y pies de página --------------------
+\usepackage[automark,headsepline=0.6pt,footsepline=0.6pt]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\automark[section]{chapter}
+\ihead{\footnotesize\color{eaGris}\headmark}
+\ohead{}
+\ofoot*{\footnotesize\color{eaVerdeOscuro}\pagemark}
+\ifoot*{\footnotesize\color{eaGris}Manual de uso · Mapa de Conflictos Ambientales}
+\setkomafont{pageheadfoot}{\normalfont\sffamily}
+\setkomafont{headsepline}{\color{eaNaranja}}
+\setkomafont{footsepline}{\color{eaNaranja}}
+
+% ---------------------- Estilo de capítulos y secciones --------------------
+\addtokomafont{disposition}{\sffamily}
+\setkomafont{chapter}{\color{eaVerdeOscuro}\sffamily\bfseries\huge}
+\setkomafont{section}{\color{eaVerde}\sffamily\bfseries\Large}
+\setkomafont{subsection}{\color{eaVerdeOscuro}\sffamily\bfseries\large}
+\setkomafont{subsubsection}{\color{eaGris}\sffamily\bfseries\normalsize}
+\setkomafont{part}{\color{eaVerdeOscuro}\sffamily\bfseries\Huge}
+\setkomafont{partnumber}{\color{eaNaranja}\sffamily\bfseries\Huge}
+
+% Número de capítulo grande, en naranja, con filete bajo el título
+\renewcommand*{\chapterformat}{%
+  \mbox{\color{eaNaranja}\fontsize{54}{54}\selectfont\bfseries\thechapter\enskip}%
+}
+\renewcommand*{\chapterlinesformat}[3]{%
+  \parbox{\textwidth}{\raggedright #2#3%
+    \par\nobreak\vspace{-0.2\baselineskip}%
+    {\color{eaNaranja}\rule{\linewidth}{1.2pt}}}%
+}
+
+% ------------------------- Índice general (TOC) ----------------------------
+\usepackage{tocbasic}
+\DeclareTOCStyleEntry[entryformat=\bfseries\color{eaVerdeOscuro}]{tocline}{chapter}
+
+% ------------------------------- Enlaces -----------------------------------
+% (los colores de los enlaces se fijan en _quarto.yml mediante colorlinks)
+
+% --------------------------- Figuras y capturas ----------------------------
+\usepackage{float}
+\usepackage[export]{adjustbox}       % permite bordes en \includegraphics
+\makeatletter
+% Marco gris claro para las capturas de pantalla
+\newcommand{\captura}[2][\textwidth]{%
+  \begin{center}
+    \fbox{\includegraphics[width=\dimexpr#1-2\fboxsep-2\fboxrule\relax]{#2}}
+  \end{center}}
+\makeatother
+
+% ---------------------- Elementos propios del manual -----------------------
+% Equivalentes en PDF de las clases CSS usadas en la versión web.
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Teclas e interfaz:  [Guardar]{.ui}
+\newcommand{\ui}[1]{%
+  \tcbox[on line, boxsep=1pt, left=2pt, right=2pt, top=1pt, bottom=1pt,
+         colframe=eaVerdeOscuro!55, colback=white, boxrule=0.5pt, arc=2pt]%
+        {\sffamily\small\bfseries\color{eaVerdeOscuro}#1}}
+
+% Rutas de menú:  [Inicio > Archivo]{.ruta}
+\newcommand{\ruta}[1]{{\sffamily\bfseries\color{eaNaranja}#1}}
+
+% Etiquetas de gravedad
+\newcommand{\etiqueta}[2]{%
+  \tcbox[on line, boxsep=1pt, left=3pt, right=3pt, top=0pt, bottom=0pt,
+         colframe=#1, colback=#1, arc=4pt]{\sffamily\scriptsize\bfseries\color{white}\MakeUppercase{#2}}}
+\newcommand{\gravedadalta}[1]{\etiqueta{eaRojo}{#1}}
+\newcommand{\gravedadmedia}[1]{\etiqueta{eaAmbar}{#1}}
+\newcommand{\gravedadbaja}[1]{\etiqueta{eaVerde}{#1}}
+
+% Las divisiones con clase (::: {.pasos}) se convierten en entornos homónimos
+\newenvironment{pasos}{\medskip}{\medskip}
+\newenvironment{tarjeta}
+  {\begin{tcolorbox}[breakable, colback=eaGrisClaro, colframe=eaNaranja,
+                     boxrule=0pt, toprule=2.5pt, arc=2pt, left=8pt, right=8pt]}
+  {\end{tcolorbox}}
+
+% --------------------- Caracteres especiales (Unicode) ---------------------
+\usepackage{amssymb}
+\DeclareUnicodeCharacter{2713}{\ensuremath{\checkmark}}   % marca de verificación
+\DeclareUnicodeCharacter{2717}{\ensuremath{\times}}
+\DeclareUnicodeCharacter{203A}{\guilsinglright}           % flecha de ruta de menú
+\DeclareUnicodeCharacter{2039}{\guilsinglleft}
+\DeclareUnicodeCharacter{00B7}{\textperiodcentered}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{2026}{\textellipsis}
+\DeclareUnicodeCharacter{2212}{\textminus}
+\DeclareUnicodeCharacter{2715}{\ensuremath{\times}}
+
+% ------------------------------ Varios -------------------------------------
+\usepackage{enumitem}
+\setlist{itemsep=2pt, parsep=0pt, topsep=4pt}
+\renewcommand{\arraystretch}{1.15}

@@ -1,0 +1,60 @@
+# Tablas de referencia {#sec-tablas}
+
+Valores admitidos en los campos clasificatorios, tal como aparecen en los
+filtros de la aplicación.
+
+## Medios afectados
+
+| Valor | Descripción *(pendiente)* |
+|---|---|
+| Agua | |
+| Aire | |
+| Caminos públicos | |
+| Ecosistemas | |
+| Espacios naturales protegidos | |
+| Fauna | |
+| Flora | |
+| Paisaje | |
+| Patrimonio | |
+| Suelo | |
+| Otros | |
+
+: Medios afectados {.striped .hover tbl-colwidths="[40,60]"}
+
+## Causas del conflicto
+
+| Valor | Descripción *(pendiente)* |
+|---|---|
+| Agricultura | |
+| Caza | |
+| Energía | |
+| Ganadería | |
+| Incendio | |
+| Industria | |
+| Militar | |
+| Minería | |
+| Pesca | |
+| Residuos | |
+| Transporte | |
+| Turismo y ocio | |
+| Urbanismo | |
+| Otras | |
+
+: Causas del conflicto {.striped .hover tbl-colwidths="[40,60]"}
+
+## Niveles de gravedad
+
+| Nivel | Criterio *(pendiente)* |
+|---|---|
+| [alta]{.gravedad-alta} | |
+| [media]{.gravedad-media} | |
+| [baja]{.gravedad-baja} | |
+
+: Niveles de gravedad {.striped}
+
+## Territorios
+
+Andalucía · Aragón · Asturies · Baleares · Canarias · Cantabria ·
+Castilla la Mancha · Castilla y León · Catalunya · Ceuta y Melilla ·
+Comunidad de Madrid · Euskal Herria · Extremadura · Galiza · La Rioja ·
+Navarra · País Valencià · Región Murciana

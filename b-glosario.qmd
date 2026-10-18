@@ -1,0 +1,25 @@
+# Glosario {#sec-glosario}
+
+Archivo de conflictos
+: Listado completo y filtrable de todos los conflictos publicados.
+
+Área de gestión
+: Zona privada, accesible con cuenta, donde se registran y editan los conflictos.
+
+Causa del conflicto
+: Actividad o decisión que origina la agresión ambiental (energía, minería, urbanismo…).
+
+Conflicto ambiental
+: *(pendiente: definición acordada por el proyecto)*.
+
+Ficha
+: Página individual de un conflicto con toda su información.
+
+Medio afectado
+: Elemento del entorno dañado o amenazado (agua, aire, suelo, fauna, flora…).
+
+Nivel de gravedad
+: Clasificación en tres niveles —alta, media y baja— de la intensidad del daño.
+
+Agrupación (*cluster*)
+: Círculo numerado que reúne varias chinchetas próximas en el mapa.

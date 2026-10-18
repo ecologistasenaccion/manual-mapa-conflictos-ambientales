@@ -1,0 +1,6 @@
+Tareas pendientes:
+
+- Añadir un botón de buscar.
+- Añadir un filtro por fecha.
+- Añadir un botón de compartir en la ficha de cada conflicto.
+

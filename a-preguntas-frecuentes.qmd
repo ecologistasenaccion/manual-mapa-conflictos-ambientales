@@ -1,0 +1,32 @@
+# Preguntas frecuentes {#sec-faq}
+
+## Consulta
+
+**¿Hace falta registrarse para consultar el mapa?**
+No. Todo el contenido publicado es de acceso libre.
+
+**¿Por qué no encuentro un conflicto que conozco?**
+*(pendiente)* Posibles causas: aún no se ha registrado, está en revisión o los
+filtros activos lo excluyen.
+
+**¿Puedo ver solo los conflictos de mi municipio?**
+Sí, con los filtros del archivo. Ver [Buscar y filtrar conflictos](04-archivo-y-filtros.qmd).
+
+## Colaboración
+
+**¿Cómo consigo una cuenta?**
+*(pendiente)*
+
+**He enviado un conflicto, ¿cuándo se publica?**
+*(pendiente)*
+
+**¿Puedo editar un conflicto registrado por otro grupo?**
+*(pendiente)*
+
+## Datos
+
+**¿Puedo reutilizar los datos en un trabajo o una investigación?**
+*(pendiente)* Ver [Licencia y uso de los datos](01-introduccion.qmd#licencia-y-uso-de-los-datos).
+
+**¿Con qué frecuencia se actualiza el mapa?**
+*(pendiente)*

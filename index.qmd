@@ -1,0 +1,95 @@
+# Presentación {.unnumbered}
+
+Este manual explica cómo usar la aplicación web del
+[**{{< var app.nombre >}}**](https://conflictosambientales.ecologistasenaccion.org/) de {{< var entidad.nombre >}}:
+desde la consulta del mapa público hasta el registro y la actualización de
+conflictos por parte de los grupos y plataformas que colaboran en el proyecto.
+
+::: {.callout-note appearance="simple"}
+## Dos formatos, el mismo contenido
+
+Puedes leer el manual en la web o descargarlo en PDF con el botón de descarga que aparece en la parte superior de cada página.
+:::
+
+## A quién va dirigido
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.tarjeta}
+### Personas que consultan
+Quieren localizar conflictos, filtrarlos por territorio o temática y entender la información de cada ficha.
+
+→ [Consultar el mapa](03-mapa-interactivo.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.tarjeta}
+### Grupos o personas que colaboran
+Tienen cuenta en el área de gestión y dan de alta o actualizan conflictos.
+
+→ [Área de gestión](07-acceso-area-gestion.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.tarjeta}
+### Equipo editor
+Revisa, valida y publica las aportaciones y vela por la calidad de los datos.
+
+→ [Criterios de calidad](11-criterios-de-calidad.qmd)
+:::
+:::
+
+::::
+
+## Cómo está organizado
+
+| Parte | Contenido |
+|---|---|
+| **Antes de empezar** | Qué es el proyecto, qué datos contiene y cómo se accede. |
+| **Consultar el mapa** | Navegación, filtros, lectura de fichas y exportación. |
+| **Colaborar** | Acceso al área privada, alta y edición de conflictos. |
+| **Apéndices** | Preguntas frecuentes, glosario, tablas y resolución de problemas. |
+
+: Estructura del manual {.striped .hover tbl-colwidths="[30,70]"}
+
+## Convenciones tipográficas
+
+Para que las instrucciones sean fáciles de seguir se emplean estas marcas:
+
+- Los botones y campos de la aplicación aparecen así: [Buscar]{.ui}, [Guardar borrador]{.ui}.
+- Las rutas de navegación se escriben así: [Inicio › Archivo de conflictos › Filtros]{.ruta}.
+- Las teclas se escriben así: <kbd>Ctrl</kbd> + <kbd>F</kbd>.
+- Los niveles de gravedad se señalan con etiquetas: [alta]{.gravedad-alta} [media]{.gravedad-media} [baja]{.gravedad-baja}.
+
+Los procedimientos paso a paso se presentan numerados:
+
+::: {.pasos}
+1. Abre {{< var app.url >}} en el navegador.
+2. Elige una comunidad autónoma en el mapa.
+3. Pulsa sobre una chincheta para abrir la ficha del conflicto.
+:::
+
+## Cómo contribuir a este manual
+
+Si detectas un error o echas en falta algo, escribe a
+[{{< var entidad.contacto >}}](mailto:{{< var entidad.contacto >}}).
+
+## Licencia
+
+Este manual se publica bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional ({{< var manual.licencia >}})](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
+
+Eres libre de:
+
+- **Compartir**: copiar y redistribuir el material en cualquier medio o formato.
+- **Adaptar**: remezclar, transformar y construir a partir del material, incluso con fines comerciales.
+
+Bajo las siguientes condiciones:
+
+- **Atribución**: debes dar crédito a {{< var entidad.nombre >}}, indicar la licencia e indicar si se han realizado cambios.
+- **CompartirIgual**: si remezclas, transformas o creas a partir del material, debes distribuir tus contribuciones bajo la misma licencia que el original.
+
+
+

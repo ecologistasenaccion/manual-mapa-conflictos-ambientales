@@ -1,0 +1,23 @@
+# Solución de problemas {#sec-problemas}
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| El mapa no carga | Bloqueador de scripts o red lenta | Desactiva el bloqueador para el sitio y recarga con <kbd>Ctrl</kbd> + <kbd>F5</kbd> |
+| Los filtros no devuelven nada | Combinación demasiado restrictiva | Quita filtros de uno en uno |
+| No puedo iniciar sesión | Contraseña o usuario erróneos | Usa [¿Olvidaste la contraseña?]{.ui} |
+| La sesión se cierra sola | Caducidad de la sesión | Vuelve a entrar y guarda con frecuencia |
+| No puedo subir una imagen | Formato o tamaño no admitidos | Ver [requisitos](10-multimedia-y-documentos.qmd) |
+| Los cambios no se ven en la web | La ficha está en revisión o hay caché | Espera a la publicación y recarga sin caché |
+
+: Problemas habituales {.striped .hover tbl-colwidths="[28,30,42]"}
+
+## Dónde pedir ayuda
+
+Escribe a [{{< var entidad.contacto >}}](mailto:{{< var entidad.contacto >}})
+indicando:
+
+::: {.pasos}
+1. Qué intentabas hacer y en qué página.
+2. Qué ocurrió y qué esperabas que ocurriera.
+3. Navegador y sistema operativo, y una captura del error si la tienes.
+:::

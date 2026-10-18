@@ -1,0 +1,30 @@
+# Criterios de calidad editorial
+
+## Qué se publica y qué no
+
+*(pendiente)* Umbral de inclusión, conflictos duplicados, ámbito territorial y
+casos en curso frente a casos históricos.
+
+## Cómo redactar la descripción
+
+- **Hechos antes que valoraciones**: qué se proyecta o se ha hecho, dónde, desde cuándo y quién lo promueve.
+- **Fuentes verificables** para cada dato relevante.
+- **Lenguaje claro**: frases cortas, sin siglas sin explicar ni tecnicismos innecesarios.
+- **Estructura sugerida**: contexto → afección ambiental → situación administrativa → respuesta social → situación actual.
+
+## Protección de datos y seguridad
+
+::: {.callout-important}
+No publiques nombres, teléfonos ni direcciones de personas físicas sin su
+consentimiento expreso. Usa el contacto de la entidad, no el personal.
+:::
+
+## Lista de comprobación antes de publicar
+
+- [ ] El título identifica el conflicto sin ambigüedad.
+- [ ] La localización y el punto del mapa son correctos.
+- [ ] Medio afectado, causa y gravedad están justificados en el texto.
+- [ ] Cada afirmación relevante tiene fuente.
+- [ ] Las imágenes tienen autoría, licencia y texto alternativo.
+- [ ] No hay datos personales innecesarios.
+- [ ] No existe ya una ficha del mismo conflicto.

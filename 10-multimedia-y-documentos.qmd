@@ -1,0 +1,36 @@
+# Imágenes, documentos y enlaces
+
+## Subir imágenes
+
+::: {.pasos}
+1. En el formulario, abre el bloque **Galería**.
+2. Pulsa [Añadir imagen]{.ui} y selecciona el archivo.
+3. Escribe el **texto alternativo**, el **pie** y la **autoría**.
+:::
+
+| Requisito | Recomendación |
+|---|---|
+| Formato | JPG o PNG |
+| Tamaño | Máximo 2 MB por imagen *(pendiente de confirmar)* |
+| Dimensiones | Lado mayor de 1600 px |
+| Texto alternativo | Obligatorio, describe la escena |
+| Autoría y licencia | Obligatorias |
+
+: Requisitos de las imágenes {.striped}
+
+::: {.callout-important}
+## Derechos de imagen
+Sube solo imágenes propias o con licencia que permita su publicación, y evita
+que aparezcan personas identificables sin su consentimiento.
+:::
+
+## Adjuntar documentos
+
+*(pendiente)* Formatos admitidos (PDF, DOC), tamaño máximo y cómo nombrar los
+archivos: `2024-05-alegaciones-planta-solar.pdf`.
+
+## Añadir enlaces
+
+- Prefiere fuentes **estables**: boletines oficiales, sentencias, medios con archivo propio.
+- Escribe un texto de enlace descriptivo, no «aquí» ni la URL desnuda.
+- Si el enlace puede desaparecer, guarda una copia en un archivo web y enlázala también.

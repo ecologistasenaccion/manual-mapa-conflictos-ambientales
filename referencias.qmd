@@ -1,0 +1,7 @@
+# Referencias {.unnumbered}
+
+Fuentes citadas y recursos útiles. Para citar en el texto se usa la sintaxis
+`[@clave]`, con las claves definidas en `referencias.bib`.
+
+::: {#refs}
+:::

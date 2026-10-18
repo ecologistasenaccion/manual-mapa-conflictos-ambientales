@@ -1,0 +1,42 @@
+# Editar y actualizar conflictos
+
+## Estados de una ficha
+
+| Estado | Qué significa | Quién puede cambiarlo |
+|---|---|---|
+| Borrador | En preparación, no visible al público | Autoría |
+| En revisión | Enviado al equipo editor | Autoría |
+| Publicado | Visible en el mapa y el archivo | Equipo editor |
+| Archivado | Conflicto cerrado o resuelto | Equipo editor |
+
+: Estados de un conflicto *(pendiente de confirmar)* {.striped .hover}
+
+## Modificar una ficha existente
+
+::: {.pasos}
+1. Entra en el área de gestión y localiza el conflicto en tu listado.
+2. Pulsa [Editar]{.ui}.
+3. Cambia lo necesario y revisa la fecha de actualización.
+4. Guarda; si la ficha ya estaba publicada, *(pendiente: indicar si los cambios se publican al instante o pasan por revisión)*.
+:::
+
+## Mantener la información al día
+
+::: {.callout-tip}
+## Buen hábito
+Revisa tus conflictos al menos **una vez al año** y cada vez que haya una
+resolución administrativa o judicial, una movilización relevante o un cambio en
+el estado del proyecto denunciado.
+:::
+
+## Cerrar o archivar un conflicto
+
+*(pendiente)* Explica cuándo se considera que un conflicto ha terminado y qué se
+conserva de su ficha.
+
+## Eliminar
+
+::: {.callout-warning}
+La eliminación no es reversible. Antes de borrar, valora si procede archivar la
+ficha para conservar la memoria del conflicto.
+:::

@@ -1,0 +1,22 @@
+# Resultados de la compilación
+_book/
+.quarto/
+*_files/
+
+# LaTeX intermedio (los ficheros de tex/ sí se versionan)
+/*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+/.quarto/

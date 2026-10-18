@@ -1,0 +1,130 @@
+project:
+  type: book
+  output-dir: docs
+  preview:
+    port: 4321
+    browser: true
+
+# Variables reutilizables: se insertan con {{< var app.url >}}
+# (ver fichero _variables.yml)
+
+book:
+  title: "Mapa de Conflictos Ambientales"
+  subtitle: "Manual de uso de la aplicación web"
+  author:
+    - name: "Alfredo Sánchez Alberca"
+      affiliation: "Ecologistas en Acción"
+  date: today
+  date-format: "D [de] MMMM [de] YYYY"
+  favicon: assets/logo.svg
+  cover-image: assets/portada.svg
+  site-url: https://conflictosambientales.ecologistasenaccion.org/
+  # repo-url: https://github.com/<usuario>/mapa-conflictos-ambientales
+  # repo-branch: main
+  # repo-subdir: manual
+  # repo-actions: [edit, issue]
+  downloads: [pdf]
+  sharing: [facebook]
+  search:
+    location: sidebar
+    type: textbox
+  sidebar:
+    style: docked
+    background: light
+    collapse-level: 1
+    border: true
+    logo: assets/logo.svg
+  page-footer:
+    border: true
+    left: "Manual de uso · Mapa de Conflictos Ambientales"
+    center: "[Ecologistas en Acción](https://ecologistasenaccion.org/)"
+    right: "Licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)"
+
+  chapters:
+    - index.qmd
+    - part: "Antes de empezar"
+      chapters:
+        - 01-introduccion.qmd
+        - 02-primeros-pasos.qmd
+    - part: "Consultar el mapa"
+      chapters:
+        - 03-mapa-interactivo.qmd
+        - 04-filtros.qmd
+        - 05-ficha-conflicto.qmd
+        - 06-compartir-y-exportar.qmd
+    - part: "Colaborar: área de gestión"
+      chapters:
+        - 07-acceso-area-gestion.qmd
+        - 08-alta-de-conflicto.qmd
+        - 09-edicion-y-estados.qmd
+        - 10-multimedia-y-documentos.qmd
+        - 11-criterios-de-calidad.qmd
+
+  appendices:
+    - a-preguntas-frecuentes.qmd
+    - b-glosario.qmd
+    - c-tablas-de-referencia.qmd
+    - d-solucion-de-problemas.qmd
+    - referencias.qmd
+
+filters:
+  - _extra/clases.lua
+
+bibliography: referencias.bib
+# Incluye todas las entradas del .bib aunque aún no se citen en el texto.
+# Elimínalo cuando el manual tenga sus propias citas.
+nocite: |
+  @*
+lang: es
+
+format:
+  html:
+    theme:
+      light: [cosmo, scss/estilos.scss]
+      dark: [darkly, scss/estilos-oscuro.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "En esta página"
+    number-sections: true
+    number-depth: 2
+    code-copy: true
+    link-external-newwindow: true
+    link-external-icon: true
+    smooth-scroll: true
+    anchor-sections: true
+    fig-align: center
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    citations-hover: true
+    footnotes-hover: true
+    lightbox: true
+    include-in-header: _extra/encabezado.html
+
+  pdf:
+    documentclass: scrreprt
+    classoption:
+      - paper=a4
+      - fontsize=11pt
+      - DIV=11
+      - BCOR=8mm
+      - numbers=noenddot
+      - open=any
+    pdf-engine: pdflatex
+    template-partials:
+      - tex/before-body.tex
+    include-in-header: tex/preambulo.tex
+    toc: true
+    toc-depth: 2
+    lof: false
+    lot: false
+    number-sections: true
+    colorlinks: true
+    linkcolor: eaVerde
+    urlcolor: eaNaranja
+    citecolor: eaVerde
+    fig-align: center
+    fig-pos: "H"
+    keep-tex: false
+    geometry:
+      - top=25mm
+      - bottom=25mm

@@ -1,0 +1,13 @@
+app:
+  nombre: "Mapa de Conflictos Ambientales"
+  url: "https://conflictosambientales.ecologistasenaccion.org/"
+  archivo: "https://conflictosambientales.ecologistasenaccion.org/archivo-conflictos-ambientales/"
+  gestion: "https://conflictosambientales.ecologistasenaccion.org/gestion/"
+  creditos: "https://conflictosambientales.ecologistasenaccion.org/creditos/"
+entidad:
+  nombre: "Ecologistas en Acción"
+  url: "https://ecologistasenaccion.org/"
+  contacto: "conflictosambientales@ecologistasenaccion.org"
+manual:
+  version: "0.1 (borrador)"
+  licencia: "CC BY-SA 4.0"
