@@ -54,7 +54,7 @@
     "href": "index.html#licencia",
     "title": "Mapa de Conflictos Ambientales",
     "section": "Licencia",
-    "text": "Licencia\nEste manual se publica bajo la licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).\nEres libre de:\n\nCompartir: copiar y redistribuir el material en cualquier medio o formato.\nAdaptar: remezclar, transformar y construir a partir del material, incluso con fines comerciales.\n\nBajo las siguientes condiciones:\n\nAtribución: debes dar crédito a Ecologistas en Acción, indicar la licencia e indicar si se han realizado cambios.\nCompartirIgual: si remezclas, transformas o creas a partir del material, debes distribuir tus contribuciones bajo la misma licencia que el original.\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "Licencia\nEste manual se publica bajo la licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).\nEres libre de:\n\nCompartir: copiar y redistribuir el material en cualquier medio o formato.\nAdaptar: remezclar, transformar y construir a partir del material, incluso con fines comerciales.\n\nBajo las siguientes condiciones:\n\nAtribución: debes dar crédito a Ecologistas en Acción, indicar la licencia e indicar si se han realizado cambios.\nCompartirIgual: si remezclas, transformas o creas a partir del material, debes distribuir tus contribuciones bajo la misma licencia que el original.",
     "crumbs": [
       "Presentación"
     ]
@@ -71,11 +71,22 @@
     ]
   },
   {
+    "objectID": "01-introduccion.html#qué-es-el-mapa-de-conflictos-ambientales",
+    "href": "01-introduccion.html#qué-es-el-mapa-de-conflictos-ambientales",
+    "title": "1  Introducción",
+    "section": "",
+    "text": "Figura 1.1: Mapa de conflictos ambientales",
+    "crumbs": [
+      "Antes de empezar",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
     "objectID": "01-introduccion.html#qué-se-considera-un-conflicto-ambiental",
     "href": "01-introduccion.html#qué-se-considera-un-conflicto-ambiental",
     "title": "1  Introducción",
     "section": "1.2 Qué se considera un conflicto ambiental",
-    "text": "1.2 Qué se considera un conflicto ambiental\nLos conflictos ambientales contemplados son agresiones al medio ambiente y a su biodiversidad.",
+    "text": "1.2 Qué se considera un conflicto ambiental\nLos conflictos ambientales contemplados son agresiones al medio ambiente y a su biodiversidad y, por tanto, recogen acciones o actividades que han causado un daño relevante al entorno natural o sus poblaciones. También pueden incluirse proyectos o decisiones que amenazan con causar un daño ambiental significativo, aunque aún no se haya producido. En cualquier caso, el conflicto ambiental debe ser relevante y de interés público.",
     "crumbs": [
       "Antes de empezar",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
@@ -97,7 +108,7 @@
     "href": "01-introduccion.html#quién-puede-hacer-qué",
     "title": "1  Introducción",
     "section": "1.4 Quién puede hacer qué",
-    "text": "1.4 Quién puede hacer qué\n\nPermisos por perfil\n\n\nPerfil\nConsultar\nProponer\nEditar\nPublicar\n\n\n\n\nVisitante\n✓\n—\n—\n—\n\n\nColaborador\n✓\n✓\n✓ (sus fichas)\n—\n\n\nEditor\n✓\n✓\n✓\n✓\n\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "1.4 Quién puede hacer qué\n\nPermisos por perfil\n\n\nPerfil\nConsultar\nProponer\nEditar\nPublicar\n\n\n\n\nVisitante\n✓\n—\n—\n—\n\n\nColaborador\n✓\n✓\n✓ (sus fichas)\n—\n\n\nEditor\n✓\n✓\n✓\n✓",
     "crumbs": [
       "Antes de empezar",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
@@ -119,7 +130,7 @@
     "href": "02-primeros-pasos.html#requisitos",
     "title": "2  Primeros pasos",
     "section": "",
-    "text": "Un navegador actualizado (Firefox, Chrome, Edge o Safari).\nConexión a internet; el mapa carga la cartografía en línea.\nPara colaborar, una cuenta en el área de gestión (ver Acceso al área de gestión).\n\n\n\n\n\n\n\nUso en el móvil\n\n\n\nEl sitio es adaptable, y está pensado para poder usarse en dispositivos móviles para añadir conflictos sobre el terreno, pero para visualizar los conflictos se recomienda usar pantallas grandes.",
+    "text": "Un navegador actualizado (Firefox, Chrome, Edge o Safari).\nConexión a internet; el mapa carga la cartografía en línea.\nPara colaborar, una cuenta en el área de gestión (ver Acceso al área de gestión).\n\n\n\n\n\n\n\nTipUso en el móvil\n\n\n\nEl sitio es adaptable, y está pensado para poder usarse en dispositivos móviles para añadir conflictos sobre el terreno, pero para visualizar los conflictos se recomienda usar pantallas grandes.",
     "crumbs": [
       "Antes de empezar",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros pasos</span>"
@@ -141,7 +152,7 @@
     "href": "02-primeros-pasos.html#la-interfaz-de-usuaria",
     "title": "2  Primeros pasos",
     "section": "2.3 La interfaz de usuaria",
-    "text": "2.3 La interfaz de usuaria\n\n\n\n\n\n\nFigura 2.1: Página de inicio con las zonas principales señaladas.\n\n\n\n\nZonas de la pantalla de inicio\n\n\n\n\n\n\n\nZona\nElemento\nPara qué sirve\n\n\n\n\n1\nSelección de la región\nBotón para elegir la comunidad autónoma que se quiere consultar.\n\n\n2\nNombre de la región\nIndica la región que se muestra actualmente en el mapa.\n\n\n3\nMapa con iconos de conflictos\nMuestra la ubicación de los conflictos de la región seleccionada.\n\n\n4\nZoom\nBotones + y − para acercar o alejar el mapa.\n\n\n5\nConflicto ambiental\nIcono que marca la posición de un conflicto; el color indica su nivel de gravedad.\n\n\n6\nFiltros\nBotón para filtrar los conflictos mostrados en el mapa.\n\n\n7\nEstadísticas\nBotón para consultar el listado y las estadísticas de los conflictos.\n\n\n8\nCapas del mapa\nBotones para cambiar el mapa base (satélite, topográfico, etc.).\n\n\n9\nLengua\nBotones para cambiar el idioma de la interfaz (EU, CA, GL).\n\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "2.3 La interfaz de usuaria\n\n\n\n\n\n\nFigura 2.1: Página de inicio con las zonas principales señaladas.\n\n\n\n\nZonas de la pantalla de inicio\n\n\n\n\n\n\n\nZona\nElemento\nPara qué sirve\n\n\n\n\n1\nSelección de la región\nBotón para elegir la comunidad autónoma que se quiere consultar.\n\n\n2\nNombre de la región\nIndica la región que se muestra actualmente en el mapa.\n\n\n3\nMapa con iconos de conflictos\nMuestra la ubicación de los conflictos de la región seleccionada.\n\n\n4\nZoom\nBotones + y − para acercar o alejar el mapa.\n\n\n5\nConflicto ambiental\nIcono que marca la posición de un conflicto; el color indica su nivel de gravedad.\n\n\n6\nFiltros\nBotón para filtrar los conflictos mostrados en el mapa.\n\n\n7\nEstadísticas\nBotón para consultar el listado y las estadísticas de los conflictos.\n\n\n8\nCapas del mapa\nBotones para cambiar el mapa base (satélite, topográfico, etc.).\n\n\n9\nLengua\nBotones para cambiar el idioma de la interfaz (EU, CA, GL).",
     "crumbs": [
       "Antes de empezar",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeros pasos</span>"
@@ -218,7 +229,7 @@
     "href": "03-mapa-interactivo.html#estadísticas-de-conflictos-ambientales",
     "title": "3  Interacción con el mapa",
     "section": "3.6 Estadísticas de conflictos ambientales",
-    "text": "3.6 Estadísticas de conflictos ambientales\nSe puede acceder a un resumen estadístico con el número de conflictos registrados en el mapa, clasificados por medio afectado, causa y nivel de gravedad, haciendo clic en el botón .\n\n\n\nEstadísticas de conflictos ambientales.\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "3.6 Estadísticas de conflictos ambientales\nSe puede acceder a un resumen estadístico con el número de conflictos registrados en el mapa, clasificados por medio afectado, causa y nivel de gravedad, haciendo clic en el botón .\n\n\n\nEstadísticas de conflictos ambientales.",
     "crumbs": [
       "Consultar el mapa",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Interacción con el mapa</span>"
@@ -251,7 +262,7 @@
     "href": "04-filtros.html#aplicar-un-filtro",
     "title": "4  Buscar y filtrar conflictos",
     "section": "4.2 Aplicar un filtro",
-    "text": "4.2 Aplicar un filtro\n\n\nMarca las casillas de Medios Afectados. Se puede marcar más de una.\nMarca las casillas de Causa de Conflictos. Se puede marcar más de una.\nMarca el **Nivel de Gravedad*.\nLos resultados se recargan automáticamente al cambiar cualquier filtro.\n\n\nPara desactivar los filtros puedes hacer clic en el botón Reiniciar filtros.\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "4.2 Aplicar un filtro\n\n\nMarca las casillas de Medios Afectados. Se puede marcar más de una.\nMarca las casillas de Causa de Conflictos. Se puede marcar más de una.\nMarca el **Nivel de Gravedad*.\nLos resultados se recargan automáticamente al cambiar cualquier filtro.\n\n\nPara desactivar los filtros puedes hacer clic en el botón Reiniciar filtros.",
     "crumbs": [
       "Consultar el mapa",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Buscar y filtrar conflictos</span>"
@@ -273,7 +284,7 @@
     "href": "05-ficha-conflicto.html#elementos-de-la-ficha",
     "title": "5  Ficha del conflicto",
     "section": "",
-    "text": "Bloques de la ficha\n\n\n\n\n\n\nBloque\nContenido\n\n\n\n\nCabecera\nTítulo, localización y nivel de gravedad.\n\n\nMapa de situación\nPunto exacto del conflicto.\n\n\nLocalización\nProvincia y municipio.\n\n\nMedio afectado\nAgua, aire, caminos públicos, ecosistemas, espacios naturales protegidos, fauna, flora, paisaje, patrimonio, suelo, otros.\n\n\nCausa del conflicto\nAgricultura, caza, energía, ganadería, incendio, industria, militar, minería, pesca, residuos, transporte, turismo y ocio, urbanismo, otras.\n\n\nCronología\nFecha de inicio y final del conflicto.\n\n\nDescripción\nRelato de los hechos y estado actual.\n\n\nActores\nPersonas, empresas e instituciones involucradas.\n\n\nGalería\nFotografías y vídeos del conflicto.\n\n\nDocumentación\nEnlaces de prensa y documentos relacionados.\n\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "Bloques de la ficha\n\n\n\n\n\n\nBloque\nContenido\n\n\n\n\nCabecera\nTítulo, localización y nivel de gravedad.\n\n\nMapa de situación\nPunto exacto del conflicto.\n\n\nLocalización\nProvincia y municipio.\n\n\nMedio afectado\nAgua, aire, caminos públicos, ecosistemas, espacios naturales protegidos, fauna, flora, paisaje, patrimonio, suelo, otros.\n\n\nCausa del conflicto\nAgricultura, caza, energía, ganadería, incendio, industria, militar, minería, pesca, residuos, transporte, turismo y ocio, urbanismo, otras.\n\n\nCronología\nFecha de inicio y final del conflicto.\n\n\nDescripción\nRelato de los hechos y estado actual.\n\n\nActores\nPersonas, empresas e instituciones involucradas.\n\n\nGalería\nFotografías y vídeos del conflicto.\n\n\nDocumentación\nEnlaces de prensa y documentos relacionados.",
     "crumbs": [
       "Consultar el mapa",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ficha del conflicto</span>"
@@ -328,7 +339,7 @@
     "href": "06-compartir-y-exportar.html#descarga-de-datos",
     "title": "6  Compartir, citar y exportar",
     "section": "6.4 Descarga de datos",
-    "text": "6.4 Descarga de datos\nEs posible exportar los datos de los conflictos ambientales en formato CSV. Para ello hay que hacer clic en el botón de selección de región  y después hacer clic en el cuadro desplegable en el botón Archivo Conflictos.\nCon ello se accede a la página del archivo de conflictos, donde se pueden filtrar los conflictos y descargar los conflictos seleccionados en formato CSV haciendo clic en el enlace que aparece abajo Descargar los datos filtrados en formato CSV.\n\n\n\nArchivo de conflictos ambientales.\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "6.4 Descarga de datos\nEs posible exportar los datos de los conflictos ambientales en formato CSV. Para ello hay que hacer clic en el botón de selección de región  y después hacer clic en el cuadro desplegable en el botón Archivo Conflictos.\nCon ello se accede a la página del archivo de conflictos, donde se pueden filtrar los conflictos y descargar los conflictos seleccionados en formato CSV haciendo clic en el enlace que aparece abajo Descargar los datos filtrados en formato CSV.\n\n\n\nArchivo de conflictos ambientales.",
     "crumbs": [
       "Consultar el mapa",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Compartir, citar y exportar</span>"
@@ -361,7 +372,7 @@
     "href": "07-acceso-area-gestion.html#recuperar-la-contraseña",
     "title": "7  Acceso al área de gestión",
     "section": "7.3 Recuperar la contraseña",
-    "text": "7.3 Recuperar la contraseña\nSi no recuerdas tu contraseña puedes cambiarla por otra siguiendo los siguientes pasos.\n\n\nEn el formulario de acceso, pulsa Reestrablecer contraseña.\nIndica el correo asociado a la cuenta.\nAbre el mensaje recibido y define una contraseña nueva.\n\n\n\n\n\n\n\n\nSeguridad de la cuenta\n\n\n\nUsa una contraseña larga y exclusiva para este sitio, no compartas la cuenta entre varias personas y cierra la sesión en equipos compartidos.",
+    "text": "7.3 Recuperar la contraseña\nSi no recuerdas tu contraseña puedes cambiarla por otra siguiendo los siguientes pasos.\n\n\nEn el formulario de acceso, pulsa Reestrablecer contraseña.\nIndica el correo asociado a la cuenta.\nAbre el mensaje recibido y define una contraseña nueva.\n\n\n\n\n\n\n\n\nAdvertenciaSeguridad de la cuenta\n\n\n\nUsa una contraseña larga y exclusiva para este sitio, no compartas la cuenta entre varias personas y cierra la sesión en equipos compartidos.",
     "crumbs": [
       "Añadir conflictos al mapa",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Acceso al área de gestión</span>"
@@ -372,7 +383,7 @@
     "href": "07-acceso-area-gestion.html#el-escritorio-de-gestión",
     "title": "7  Acceso al área de gestión",
     "section": "7.4 El escritorio de gestión",
-    "text": "7.4 El escritorio de gestión\nAl acceder al área de gestión de conflictos ambientales, verás una página con la lista de tarjetas de los conflictos ambientales que has registrado en la aplicación.\n\n\n\nEscritorio de gestión de conflictos ambientales\n\n\nEn esta página puedes filtrar tus conflictos ambientales por provincia, municipio, medios afectados, causa del conflicto y niveles de gravedad.\nCada tarjeta incluye tres iconos de acción:  para ver la ficha del conflicto,  para editarlo y  para eliminarlo.\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "7.4 El escritorio de gestión\nAl acceder al área de gestión de conflictos ambientales, verás una página con la lista de tarjetas de los conflictos ambientales que has registrado en la aplicación.\n\n\n\nEscritorio de gestión de conflictos ambientales\n\n\nEn esta página puedes filtrar tus conflictos ambientales por provincia, municipio, medios afectados, causa del conflicto y niveles de gravedad.\nCada tarjeta incluye tres iconos de acción:  para ver la ficha del conflicto,  para editarlo y  para eliminarlo.",
     "crumbs": [
       "Añadir conflictos al mapa",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Acceso al área de gestión</span>"
@@ -383,18 +394,7 @@
     "href": "08-registro-conflicto.html",
     "title": "8  Registrar un nuevo conflicto",
     "section": "",
-    "text": "8.1 Modificar un conflicto registrado\nPara registrar un nuevo conflicto hay que hacer clic en el botón Añade un Conflicto.\nSe abrirá un formulario donde deben rellenarse los campos del conflicto.\nLos campos del formulario son:\nLos campos con asterisco (*) son obligatorios para poder registra un conflicto ambiental en la base de datos.\nUna vez rellenados los campos del formulario, pulsa el botón Envía a revisión para que la persona con el rol de editora pueda revisarla y publicarla. Tras esto, aparecerá una nueva tarjeta en el escritorio de gestión correspondiente al conflicto registrado.\nPara modificar un conflicto ambiental registrado hay que hacer clic en el botón",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Registrar un nuevo conflicto</span>"
-    ]
-  },
-  {
-    "objectID": "08-registro-conflicto.html#modificar-un-conflicto-registrado",
-    "href": "08-registro-conflicto.html#modificar-un-conflicto-registrado",
-    "title": "8  Registrar un nuevo conflicto",
-    "section": "",
-    "text": "Allaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "Para registrar un nuevo conflicto hay que hacer clic en el botón Añade un Conflicto.\nSe abrirá un formulario donde deben rellenarse los campos del conflicto.\n\n\n\nFormulario de registro de un conflicto\n\n\nLos campos del formulario son:\n\n\n\n\n\n\n\n\nCampo\nTipo\nContenido\n\n\n\n\nTítulo\nCampo de texto\nTítulo abreviado del conflicto ambiental.\n\n\nProvincia\nCuadros de selección\nProvincia donde se ubica el conflicto ambiental.\n\n\nMunicipio\nCuadros de selección\nMunicipio donde se ubica el conflicto ambiental (si no aparece se puede añadir con el botón Añadir nuevo)\n\n\nLugar\nCampo de texto\nNombre del paraje o lugar donde se ubica el conflicto ambiental.\n\n\nNivel de Gravedad\nCuadro desplegable\nNivel de gravedad del conflicto ambiental: Baja, Media o Alta.\n\n\nUbicación\nCoordenadas (Latitud, Longitud)\nCoordenadas aproximadas de ubicación del conflicto ambiental (se pueden introducir a mano o haciendo clic sobre el mapa interactivo).\n\n\nMedios afectados\nCuadros de selección\nAgua, aire, caminos públicos, ecosistemas, espacios naturales protegidos, fauna, flora, paisaje, patrimonio, suelo, otros. (se pueden seleccionar más de uno).\n\n\nCausas del conflicto\nCuadros de selección\nAgricultura, caza, energía, ganadería, incendio, industria, militar, minería, pesca, residuos, transporte, turismo y ocio, urbanismo, otras. (se pueden seleccionar más de una).\n\n\nInicio\nFecha\nFecha aproximada de inicio del conflicto.\n\n\nFin\nFecha\nFecha aproximada de finalización del conflicto (si el conflicto sigue vigente dejar en blanco).\n\n\nDescripción\nCampo de texto\nRelato de los hechos y estado actual (incluye un pequeño editor de texto).\n\n\nActores\nCampo de texto\nPersonas, empresas e instituciones involucradas.\n\n\nAcciones\nCampo de texto\nAcciones realizadas ante el conflicto.\n\n\nRespuesta institucional\nCampo de texto\nRespuesta de las administraciones públicas responsables.\n\n\nImagen principal\nBotón de subida de ficheros\nImagen que aparece en la ventana desplegable al hacer clic en un icono de conflicto ambiental en el mapa.\n\n\nGalería de fotos\nBotón de subida de ficheros\nFotografías y vídeos del conflicto.\n\n\nDocumentación\nBotón de subida de ficheros\nDocumentos relacionados en formato pdf.\n\n\n\nLos campos con asterisco (*) son obligatorios para poder registra un conflicto ambiental en la base de datos.\n\n\n\n\n\n\nTipUbicación actual\n\n\n\nSi se accede a la aplicación desde un teléfono móvil, el mapa de ubicación reflejará la ubicación actual del teléfono, por lo que puedes registrarla pulsando sobre el botón Usa mi ubicación. Esto permite registrar rápidamente un conflicto ambiental sobre el terreno, siempre que haya cobertura.\n\n\n\n\n\n\n\n\nImportante\n\n\n\nEs importante incluir al menos una foto en la imagen principal y una descripción detallada del conflicto.\n\n\nUna vez rellenados los campos del formulario, pulsa el botón Envía a revisión para que la persona con el rol de editora pueda revisarla y publicarla. Tras esto, aparecerá una nueva tarjeta en el escritorio de gestión correspondiente al conflicto registrado, con el rótulo en revisión.\n\n\n\nTarjeta de conflicto en revisión\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nEl conflicto ambiental registrado no aparecerá en el mapa de la aplicación hasta que una persona con el rol de editora lo revise y publique. Ten paciencia porque el proceso de revisión puede tardar unos días.",
     "crumbs": [
       "Añadir conflictos al mapa",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Registrar un nuevo conflicto</span>"
@@ -403,155 +403,89 @@
   {
     "objectID": "09-modificacion-conflicto.html",
     "href": "09-modificacion-conflicto.html",
-    "title": "9  Editar y actualizar conflictos",
+    "title": "9  Modificar conflictos",
     "section": "",
-    "text": "9.1 Estados de una ficha",
+    "text": "9.1 Eliminar un conflicto\nPara modificar un conflicto ambiental registrado hay que hacer clic en el botón  de la tarjeta correspondiente al conflicto en el escritorio de gestión. Con ello se vuelve a abrir el formulario de registro del conflicto, pero con los campos ya rellenados con la información previamente registrada, donde se pueden hacer las modificaciones necesarias.\nPara eliminar un conflicto ambiental de la base de datos, solo hay que hacer clic en el botón  de la tarjeta correspondiente al conflicto en el escritorio de gestión.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Editar y actualizar conflictos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modificar conflictos</span>"
     ]
   },
   {
-    "objectID": "09-modificacion-conflicto.html#estados-de-una-ficha",
-    "href": "09-modificacion-conflicto.html#estados-de-una-ficha",
-    "title": "9  Editar y actualizar conflictos",
+    "objectID": "09-modificacion-conflicto.html#eliminar-un-conflicto",
+    "href": "09-modificacion-conflicto.html#eliminar-un-conflicto",
+    "title": "9  Modificar conflictos",
     "section": "",
-    "text": "Estados de un conflicto (pendiente de confirmar)\n\n\nEstado\nQué significa\nQuién puede cambiarlo\n\n\n\n\nBorrador\nEn preparación, no visible al público\nAutoría\n\n\nEn revisión\nEnviado al equipo editor\nAutoría\n\n\nPublicado\nVisible en el mapa y el archivo\nEquipo editor\n\n\nArchivado\nConflicto cerrado o resuelto\nEquipo editor",
+    "text": "Advertencia\n\n\n\nLa eliminación no es reversible, por lo que asegúrate de que realmente quieres eliminar el conflicto antes de hacerlo. Si lo que quieres es que deje de aparecer en el mapa, puedes pedirle a un editor que lo marque como en revisión.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Editar y actualizar conflictos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modificar conflictos</span>"
     ]
   },
   {
-    "objectID": "09-modificacion-conflicto.html#modificar-una-ficha-existente",
-    "href": "09-modificacion-conflicto.html#modificar-una-ficha-existente",
-    "title": "9  Editar y actualizar conflictos",
-    "section": "9.2 Modificar una ficha existente",
-    "text": "9.2 Modificar una ficha existente\n\n\nEntra en el área de gestión y localiza el conflicto en tu listado.\nPulsa Editar.\nCambia lo necesario y revisa la fecha de actualización.\nGuarda; si la ficha ya estaba publicada, (pendiente: indicar si los cambios se publican al instante o pasan por revisión).",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Editar y actualizar conflictos</span>"
-    ]
-  },
-  {
-    "objectID": "09-modificacion-conflicto.html#mantener-la-información-al-día",
-    "href": "09-modificacion-conflicto.html#mantener-la-información-al-día",
-    "title": "9  Editar y actualizar conflictos",
-    "section": "9.3 Mantener la información al día",
-    "text": "9.3 Mantener la información al día\n\n\n\n\n\n\nBuen hábito\n\n\n\nRevisa tus conflictos al menos una vez al año y cada vez que haya una resolución administrativa o judicial, una movilización relevante o un cambio en el estado del proyecto denunciado.",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Editar y actualizar conflictos</span>"
-    ]
-  },
-  {
-    "objectID": "09-modificacion-conflicto.html#cerrar-o-archivar-un-conflicto",
-    "href": "09-modificacion-conflicto.html#cerrar-o-archivar-un-conflicto",
-    "title": "9  Editar y actualizar conflictos",
-    "section": "9.4 Cerrar o archivar un conflicto",
-    "text": "9.4 Cerrar o archivar un conflicto\n(pendiente) Explica cuándo se considera que un conflicto ha terminado y qué se conserva de su ficha.",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Editar y actualizar conflictos</span>"
-    ]
-  },
-  {
-    "objectID": "09-modificacion-conflicto.html#eliminar",
-    "href": "09-modificacion-conflicto.html#eliminar",
-    "title": "9  Editar y actualizar conflictos",
-    "section": "9.5 Eliminar",
-    "text": "9.5 Eliminar\n\n\n\n\n\n\nAdvertencia\n\n\n\nLa eliminación no es reversible. Antes de borrar, valora si procede archivar la ficha para conservar la memoria del conflicto.\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Editar y actualizar conflictos</span>"
-    ]
-  },
-  {
-    "objectID": "10-multimedia-y-documentos.html",
-    "href": "10-multimedia-y-documentos.html",
-    "title": "10  Imágenes, documentos y enlaces",
+    "objectID": "10-criterios-de-calidad.html",
+    "href": "10-criterios-de-calidad.html",
+    "title": "10  Criterios de calidad editorial",
     "section": "",
-    "text": "10.1 Subir imágenes",
+    "text": "10.1 Qué se publica y qué no\nPara que el mapa no se llene de conflictos irrelevantes, duplicados o imprecisos, es necesario atender a unos mínimos de calidad editorial. Por ello, se revisarán los conflictos registrados antes de publicarlos en el mapa y se aplican los siguientes criterios:",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Imágenes, documentos y enlaces</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
     ]
   },
   {
-    "objectID": "10-multimedia-y-documentos.html#subir-imágenes",
-    "href": "10-multimedia-y-documentos.html#subir-imágenes",
-    "title": "10  Imágenes, documentos y enlaces",
+    "objectID": "10-criterios-de-calidad.html#qué-se-publica-y-qué-no",
+    "href": "10-criterios-de-calidad.html#qué-se-publica-y-qué-no",
+    "title": "10  Criterios de calidad editorial",
     "section": "",
-    "text": "En el formulario, abre el bloque Galería.\nPulsa Añadir imagen y selecciona el archivo.\nEscribe el texto alternativo, el pie y la autoría.\n\n\n\nRequisitos de las imágenes\n\n\nRequisito\nRecomendación\n\n\n\n\nFormato\nJPG o PNG\n\n\nTamaño\nMáximo 2 MB por imagen (pendiente de confirmar)\n\n\nDimensiones\nLado mayor de 1600 px\n\n\nTexto alternativo\nObligatorio, describe la escena\n\n\nAutoría y licencia\nObligatorias\n\n\n\n\n\n\n\n\n\nDerechos de imagen\n\n\n\nSube solo imágenes propias o con licencia que permita su publicación, y evita que aparezcan personas identificables sin su consentimiento.",
+    "text": "No se publicarán conflictos que no tengan un mínimo de información: título, ubicación precisa, medio afectado, causa, nivel de gravedad y descripción.\nNo se publicarán conflictos duplicados o que tengan relación directa con otro conflicto ya publicado. En ese caso, la nueva información se puede añadir a la ficha existente.\nNo se publicarán conflictos que no tengan relevancia ambiental, aunque puedan tener interés social o político.\nSe pueden publicar conflictos ambientales que estén en fase de proyecto, siempre y cuando se pueda argumentar que la ejecución del proyecto supone un riesgo ambiental relevante. Si finalmente el proyecto no se ejecuta, se tiene que eliminar el conflicto de la base de datos.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Imágenes, documentos y enlaces</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
     ]
   },
   {
-    "objectID": "10-multimedia-y-documentos.html#adjuntar-documentos",
-    "href": "10-multimedia-y-documentos.html#adjuntar-documentos",
-    "title": "10  Imágenes, documentos y enlaces",
-    "section": "10.2 Adjuntar documentos",
-    "text": "10.2 Adjuntar documentos\n(pendiente) Formatos admitidos (PDF, DOC), tamaño máximo y cómo nombrar los archivos: 2024-05-alegaciones-planta-solar.pdf.",
+    "objectID": "10-criterios-de-calidad.html#cómo-redactar-la-descripción",
+    "href": "10-criterios-de-calidad.html#cómo-redactar-la-descripción",
+    "title": "10  Criterios de calidad editorial",
+    "section": "10.2 Cómo redactar la descripción",
+    "text": "10.2 Cómo redactar la descripción\nA la hora de rellenar la descripción del conflicto ambiental, ten en cuenta los siguientes consejos:\n\nHechos antes que valoraciones: qué se proyecta o se ha hecho, dónde, desde cuándo y quién lo promueve.\nFuentes verificables para cada dato relevante.\nLenguaje claro: frases cortas, sin siglas sin explicar ni tecnicismos innecesarios.\nEstructura sugerida: contexto → afección ambiental → situación administrativa → respuesta social → situación actual.\nCuidado con las acusaciones: Señala a las personas, empresas o instituciones presuntamente responsables en el campo de actores del conflicto, pero no realices acusaciones directas a no ser que haya una sentencia judicial que lo respalde.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Imágenes, documentos y enlaces</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
     ]
   },
   {
-    "objectID": "10-multimedia-y-documentos.html#añadir-enlaces",
-    "href": "10-multimedia-y-documentos.html#añadir-enlaces",
-    "title": "10  Imágenes, documentos y enlaces",
-    "section": "10.3 Añadir enlaces",
-    "text": "10.3 Añadir enlaces\n\nPrefiere fuentes estables: boletines oficiales, sentencias, medios con archivo propio.\nEscribe un texto de enlace descriptivo, no «aquí» ni la URL desnuda.\nSi el enlace puede desaparecer, guarda una copia en un archivo web y enlázala también.\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "objectID": "10-criterios-de-calidad.html#documentación-y-pruebas",
+    "href": "10-criterios-de-calidad.html#documentación-y-pruebas",
+    "title": "10  Criterios de calidad editorial",
+    "section": "10.3 Documentación y pruebas",
+    "text": "10.3 Documentación y pruebas\nEs fundamental que toda la información publicada en el mapa esté respaldada por documentación y pruebas verificables. Estas pruebas pueden ser:\n\nFotografías y vídeos del conflicto ambiental. Asegúrate de que las imágenes tengan licencia libre o permiso del autor para su publicación. Mejor si son tus propias fotos o vídeos.\nDocumentos oficiales (resoluciones administrativas, sentencias judiciales, informes técnicos, etc). No subas nada que sea confidencial.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Imágenes, documentos y enlaces</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
     ]
   },
   {
-    "objectID": "11-criterios-de-calidad.html",
-    "href": "11-criterios-de-calidad.html",
-    "title": "11  Criterios de calidad editorial",
-    "section": "",
-    "text": "11.1 Qué se publica y qué no\n(pendiente) Umbral de inclusión, conflictos duplicados, ámbito territorial y casos en curso frente a casos históricos.",
+    "objectID": "10-criterios-de-calidad.html#protección-de-datos-y-seguridad",
+    "href": "10-criterios-de-calidad.html#protección-de-datos-y-seguridad",
+    "title": "10  Criterios de calidad editorial",
+    "section": "10.4 Protección de datos y seguridad",
+    "text": "10.4 Protección de datos y seguridad\n\n\n\n\n\n\nImportante\n\n\n\nNo publiques nombres, teléfonos ni direcciones de personas físicas sin su consentimiento expreso. Usa el contacto de la entidad, no el personal.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
     ]
   },
   {
-    "objectID": "11-criterios-de-calidad.html#cómo-redactar-la-descripción",
-    "href": "11-criterios-de-calidad.html#cómo-redactar-la-descripción",
-    "title": "11  Criterios de calidad editorial",
-    "section": "11.2 Cómo redactar la descripción",
-    "text": "11.2 Cómo redactar la descripción\n\nHechos antes que valoraciones: qué se proyecta o se ha hecho, dónde, desde cuándo y quién lo promueve.\nFuentes verificables para cada dato relevante.\nLenguaje claro: frases cortas, sin siglas sin explicar ni tecnicismos innecesarios.\nEstructura sugerida: contexto → afección ambiental → situación administrativa → respuesta social → situación actual.",
+    "objectID": "10-criterios-de-calidad.html#lista-de-comprobación-antes-de-publicar",
+    "href": "10-criterios-de-calidad.html#lista-de-comprobación-antes-de-publicar",
+    "title": "10  Criterios de calidad editorial",
+    "section": "10.5 Lista de comprobación antes de publicar",
+    "text": "10.5 Lista de comprobación antes de publicar\n\nEl título identifica el conflicto sin ambigüedad.\nLa localización y el punto del mapa son correctos.\nMedio afectado, causa y gravedad están justificados en el texto.\nCada afirmación relevante tiene fuente.\nLas imágenes tienen autoría, licencia y texto alternativo.\nNo hay datos personales innecesarios.\nNo existe ya una ficha del mismo conflicto.",
     "crumbs": [
       "Añadir conflictos al mapa",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
-    ]
-  },
-  {
-    "objectID": "11-criterios-de-calidad.html#protección-de-datos-y-seguridad",
-    "href": "11-criterios-de-calidad.html#protección-de-datos-y-seguridad",
-    "title": "11  Criterios de calidad editorial",
-    "section": "11.3 Protección de datos y seguridad",
-    "text": "11.3 Protección de datos y seguridad\n\n\n\n\n\n\nImportante\n\n\n\nNo publiques nombres, teléfonos ni direcciones de personas físicas sin su consentimiento expreso. Usa el contacto de la entidad, no el personal.",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
-    ]
-  },
-  {
-    "objectID": "11-criterios-de-calidad.html#lista-de-comprobación-antes-de-publicar",
-    "href": "11-criterios-de-calidad.html#lista-de-comprobación-antes-de-publicar",
-    "title": "11  Criterios de calidad editorial",
-    "section": "11.4 Lista de comprobación antes de publicar",
-    "text": "11.4 Lista de comprobación antes de publicar\n\nEl título identifica el conflicto sin ambigüedad.\nLa localización y el punto del mapa son correctos.\nMedio afectado, causa y gravedad están justificados en el texto.\nCada afirmación relevante tiene fuente.\nLas imágenes tienen autoría, licencia y texto alternativo.\nNo hay datos personales innecesarios.\nNo existe ya una ficha del mismo conflicto.\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
-    "crumbs": [
-      "Añadir conflictos al mapa",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Criterios de calidad editorial</span>"
     ]
   },
   {
@@ -559,7 +493,18 @@
     "href": "a-preguntas-frecuentes.html",
     "title": "Apéndice A — Preguntas frecuentes",
     "section": "",
-    "text": "A.1 Consulta\n¿Hace falta registrarse para consultar el mapa? No. Todo el contenido publicado es de acceso libre.\n¿Por qué no encuentro un conflicto que conozco? (pendiente) Posibles causas: aún no se ha registrado, está en revisión o los filtros activos lo excluyen.\n¿Puedo ver solo los conflictos de mi municipio? Sí, con los filtros del archivo. Ver Buscar y filtrar conflictos.",
+    "text": "A.1 Consulta",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preguntas frecuentes</span>"
+    ]
+  },
+  {
+    "objectID": "a-preguntas-frecuentes.html#consulta",
+    "href": "a-preguntas-frecuentes.html#consulta",
+    "title": "Apéndice A — Preguntas frecuentes",
+    "section": "",
+    "text": "¿Hace falta registrarse para consultar el mapa?\nNo. Todo el contenido publicado es de acceso libre.\n¿Por qué no encuentro un conflicto que conozco?\nEs posible que el conflicto no esté registrado aún o que esté en fase de revisión. Asegúrate de que los filtros aplicados sean correctos y no estén excluyendo el conflicto de la búsqueda.\n¿Puedo ver solo los conflictos de mi municipio?\nSí, con los filtros del archivo (ver Buscar y filtrar conflictos).\n¿Puedo descargar los datos de los conflictos?\nSí, en el archivo de conflictos hay un botón de descarga en formato CSV (ver Exportar datos).",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preguntas frecuentes</span>"
@@ -570,7 +515,7 @@
     "href": "a-preguntas-frecuentes.html#colaboración",
     "title": "Apéndice A — Preguntas frecuentes",
     "section": "A.2 Colaboración",
-    "text": "A.2 Colaboración\n¿Cómo consigo una cuenta? (pendiente)\nHe enviado un conflicto, ¿cuándo se publica? (pendiente)\n¿Puedo editar un conflicto registrado por otro grupo? (pendiente)",
+    "text": "A.2 Colaboración\n\n¿Cómo consigo una cuenta?\nPídela a alguien de tu grupo local con rol de editora. Si no conoces a nadie, solicítala escribiendo a conflictosambientales@ecologistasenaccion.org indicando tu nombre, correo y grupo local.\n¿Puedo usar mi teléfono móvil para registrar un conflicto ambiental?\nSí, la aplicación es compatible con teléfonos móviles y tabletas. El mapa de ubicación refleja la ubicación actual del teléfono, por lo que puedes registrarla pulsando sobre el botón Usa mi ubicación. Esto permite registrar rápidamente un conflicto ambiental sobre el terreno, siempre que haya cobertura.\nHe enviado un conflicto, ¿cuándo se publica?\nPara que un conflicto ambiental aparezca en el mapa, tiene que ser revisado y publicado por una persona con rol de editora. El proceso de revisión puede tardar unos días. Si después de una semana sigue sin aparecer, escríbele a la persona editora de tu grupo local o a conflictosambientales@ecologistasenaccion.org para que lo revise.\n¿Puedo añadir un conflicto de un territorio que no es el mío?\nSí, pero asegúrate de que el caso no esté ya registrado, y de que la información que aportas es precisa y veraz. En última instancia, contacta con el grupo local del territorio para que lo revise.\n¿Puedo editar un conflicto registrado por otro grupo?\nNo, solo puedes editar los conflictos que hayas registrado tú o tu grupo local. Si quieres añadir información a un conflicto registrado por otro grupo, ponte en contacto con la persona editora de ese grupo para que lo haga.",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preguntas frecuentes</span>"
@@ -581,7 +526,7 @@
     "href": "a-preguntas-frecuentes.html#datos",
     "title": "Apéndice A — Preguntas frecuentes",
     "section": "A.3 Datos",
-    "text": "A.3 Datos\n¿Puedo reutilizar los datos en un trabajo o una investigación? (pendiente) Ver Licencia y uso de los datos.\n¿Con qué frecuencia se actualiza el mapa? (pendiente)\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "A.3 Datos\n\n¿Puedo reutilizar los datos en un trabajo o una investigación?\nSí, siempre que se respeten los términos de la licencia (ver Licencia y uso de los datos).",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Preguntas frecuentes</span>"
@@ -592,98 +537,32 @@
     "href": "b-glosario.html",
     "title": "Apéndice B — Glosario",
     "section": "",
-    "text": "Archivo de conflictos\n\nListado completo y filtrable de todos los conflictos publicados.\n\nÁrea de gestión\n\nZona privada, accesible con cuenta, donde se registran y editan los conflictos.\n\nCausa del conflicto\n\nActividad o decisión que origina la agresión ambiental (energía, minería, urbanismo…).\n\nConflicto ambiental\n\n(pendiente: definición acordada por el proyecto).\n\nFicha\n\nPágina individual de un conflicto con toda su información.\n\nMedio afectado\n\nElemento del entorno dañado o amenazado (agua, aire, suelo, fauna, flora…).\n\nNivel de gravedad\n\nClasificación en tres niveles —alta, media y baja— de la intensidad del daño.\n\nAgrupación (cluster)\n\nCírculo numerado que reúne varias chinchetas próximas en el mapa.\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
+    "text": "Archivo de conflictos\n\nListado completo y filtrable de todos los conflictos publicados.\n\nÁrea de gestión\n\nZona privada, accesible con cuenta, donde se registran y editan los conflictos.\n\nCausa del conflicto\n\nActividad o decisión que origina la agresión ambiental (energía, minería, urbanismo…).\n\nConflicto ambiental\n\nAcción o actividad que causa daño o amenaza al entorno natural.\n\nFicha\n\nPágina individual de un conflicto con toda su información.\n\nMedio afectado\n\nElemento del entorno dañado o amenazado (agua, aire, suelo, fauna, flora…).\n\nNivel de gravedad\n\nClasificación en tres niveles —alta, media y baja— de la intensidad del daño.\n\nAgrupación (cluster)\n\nCírculo numerado que reúne varias chinchetas próximas en el mapa.",
     "crumbs": [
       "Apéndices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Glosario</span>"
     ]
   },
   {
-    "objectID": "c-tablas-de-referencia.html",
-    "href": "c-tablas-de-referencia.html",
-    "title": "Apéndice C — Tablas de referencia",
+    "objectID": "c-solucion-de-problemas.html",
+    "href": "c-solucion-de-problemas.html",
+    "title": "Apéndice C — Solución de problemas",
     "section": "",
-    "text": "C.1 Medios afectados\nValores admitidos en los campos clasificatorios, tal como aparecen en los filtros de la aplicación.",
+    "text": "C.1 Dónde pedir ayuda\nEscribe a conflictosambientales@ecologistasenaccion.org indicando:",
     "crumbs": [
       "Apéndices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Tablas de referencia</span>"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Solución de problemas</span>"
     ]
   },
   {
-    "objectID": "c-tablas-de-referencia.html#medios-afectados",
-    "href": "c-tablas-de-referencia.html#medios-afectados",
-    "title": "Apéndice C — Tablas de referencia",
+    "objectID": "c-solucion-de-problemas.html#dónde-pedir-ayuda",
+    "href": "c-solucion-de-problemas.html#dónde-pedir-ayuda",
+    "title": "Apéndice C — Solución de problemas",
     "section": "",
-    "text": "Medios afectados\n\n\n\n\n\n\nValor\nDescripción (pendiente)\n\n\n\n\nAgua\n\n\n\nAire\n\n\n\nCaminos públicos\n\n\n\nEcosistemas\n\n\n\nEspacios naturales protegidos\n\n\n\nFauna\n\n\n\nFlora\n\n\n\nPaisaje\n\n\n\nPatrimonio\n\n\n\nSuelo\n\n\n\nOtros",
+    "text": "Qué intentabas hacer y en qué página.\nQué ocurrió y qué esperabas que ocurriera.\nNavegador y sistema operativo, y una captura del error si la tienes.",
     "crumbs": [
       "Apéndices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Tablas de referencia</span>"
-    ]
-  },
-  {
-    "objectID": "c-tablas-de-referencia.html#causas-del-conflicto",
-    "href": "c-tablas-de-referencia.html#causas-del-conflicto",
-    "title": "Apéndice C — Tablas de referencia",
-    "section": "C.2 Causas del conflicto",
-    "text": "C.2 Causas del conflicto\n\nCausas del conflicto\n\n\n\n\n\n\nValor\nDescripción (pendiente)\n\n\n\n\nAgricultura\n\n\n\nCaza\n\n\n\nEnergía\n\n\n\nGanadería\n\n\n\nIncendio\n\n\n\nIndustria\n\n\n\nMilitar\n\n\n\nMinería\n\n\n\nPesca\n\n\n\nResiduos\n\n\n\nTransporte\n\n\n\nTurismo y ocio\n\n\n\nUrbanismo\n\n\n\nOtras",
-    "crumbs": [
-      "Apéndices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Tablas de referencia</span>"
-    ]
-  },
-  {
-    "objectID": "c-tablas-de-referencia.html#niveles-de-gravedad",
-    "href": "c-tablas-de-referencia.html#niveles-de-gravedad",
-    "title": "Apéndice C — Tablas de referencia",
-    "section": "C.3 Niveles de gravedad",
-    "text": "C.3 Niveles de gravedad\n\nNiveles de gravedad\n\n\nNivel\nCriterio (pendiente)\n\n\n\n\nalta\n\n\n\nmedia\n\n\n\nbaja",
-    "crumbs": [
-      "Apéndices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Tablas de referencia</span>"
-    ]
-  },
-  {
-    "objectID": "c-tablas-de-referencia.html#territorios",
-    "href": "c-tablas-de-referencia.html#territorios",
-    "title": "Apéndice C — Tablas de referencia",
-    "section": "C.4 Territorios",
-    "text": "C.4 Territorios\nAndalucía · Aragón · Asturies · Baleares · Canarias · Cantabria · Castilla la Mancha · Castilla y León · Catalunya · Ceuta y Melilla · Comunidad de Madrid · Euskal Herria · Extremadura · Galiza · La Rioja · Navarra · País Valencià · Región Murciana\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
-    "crumbs": [
-      "Apéndices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Tablas de referencia</span>"
-    ]
-  },
-  {
-    "objectID": "d-solucion-de-problemas.html",
-    "href": "d-solucion-de-problemas.html",
-    "title": "Apéndice D — Solución de problemas",
-    "section": "",
-    "text": "D.1 Dónde pedir ayuda\nEscribe a conflictosambientales@ecologistasenaccion.org indicando:",
-    "crumbs": [
-      "Apéndices",
-      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Solución de problemas</span>"
-    ]
-  },
-  {
-    "objectID": "d-solucion-de-problemas.html#dónde-pedir-ayuda",
-    "href": "d-solucion-de-problemas.html#dónde-pedir-ayuda",
-    "title": "Apéndice D — Solución de problemas",
-    "section": "",
-    "text": "Qué intentabas hacer y en qué página.\nQué ocurrió y qué esperabas que ocurriera.\nNavegador y sistema operativo, y una captura del error si la tienes.\n\n\n\n\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, y Christophe Dervieux. 2024. «Quarto». https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. «Mapa de Conflictos Ambientales». https://conflictosambientales.ecologistasenaccion.org/.",
-    "crumbs": [
-      "Apéndices",
-      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Solución de problemas</span>"
-    ]
-  },
-  {
-    "objectID": "referencias.html",
-    "href": "referencias.html",
-    "title": "Referencias",
-    "section": "",
-    "text": "Fuentes citadas y recursos útiles. Para citar en el texto se usa la sintaxis [@clave], con las claves definidas en referencias.bib.\n\n\nAllaire, J. J., Charles Teague, Carlos Scheidegger, Yihui Xie, and\nChristophe Dervieux. 2024. “Quarto.” https://doi.org/10.5281/zenodo.5960048.\n\n\nEcologistas en Acción. 2026. “Mapa de Conflictos\nAmbientales.” https://conflictosambientales.ecologistasenaccion.org/.",
-    "crumbs": [
-      "Apéndices",
-      "Referencias"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Solución de problemas</span>"
     ]
   }
 ]
