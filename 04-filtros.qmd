@@ -1,6 +1,6 @@
 # Buscar y filtrar conflictos
 
-La aplicación permite localizar conflictos ambientales haciendo clic sobre el botón de filtros ![](assets/capturas/boton-filtros.png){width="20px"}. Esto abre un panel lateral con los filtros disponibles.
+La aplicación permite localizar conflictos ambientales haciendo clic sobre el botón de filtros {{< fa filter >}}. Esto abre un panel lateral con los filtros disponibles.
 
 ![Panel de filtros](assets/capturas/filtros.png){width="40%"}
 

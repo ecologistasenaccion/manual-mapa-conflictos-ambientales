@@ -1,0 +1,50 @@
+# Registrar un nuevo conflicto
+
+Para registrar un nuevo conflicto hay que hacer clic en el botón [Añade un Conflicto]{.ui}.
+
+Se abrirá un formulario donde deben rellenarse los campos del conflicto.
+
+![Formulario de registro de un conflicto](/assets/capturas/formulario-registro-conflicto.png){width="80%"}
+
+Los campos del formulario son:
+
+| Campo | Tipo | Contenido |
+|---|---|----------|
+| Título | Campo de texto| Título abreviado del conflicto ambiental. |
+| Provincia | Cuadros de selección | Provincia donde se ubica el conflicto ambiental. |
+| Municipio | Cuadros de selección  | Municipio donde se ubica el conflicto ambiental (si no aparece se puede añadir con el botón [Añadir nuevo]{.ui}) |
+| Lugar | Campo de texto | Nombre del paraje o lugar donde se ubica el conflicto ambiental. |
+| Nivel de Gravedad | Cuadro desplegable | Nivel de gravedad del conflicto ambiental: Baja, Media o Alta. |
+| Ubicación | Coordenadas (Latitud, Longitud) | Coordenadas aproximadas de ubicación del conflicto ambiental (se pueden introducir a mano o haciendo clic sobre el mapa interactivo). |
+| Medios afectados | Cuadros de selección | Agua, aire, caminos públicos, ecosistemas, espacios naturales protegidos, fauna, flora, paisaje, patrimonio, suelo, otros. (se pueden seleccionar más de uno). |
+| Causas del conflicto | Cuadros de selección | Agricultura, caza, energía, ganadería, incendio, industria, militar, minería, pesca, residuos, transporte, turismo y ocio, urbanismo, otras. (se pueden seleccionar más de una). |
+| Inicio | Fecha | Fecha aproximada de inicio del conflicto.|
+| Fin | Fecha | Fecha aproximada de finalización del conflicto (si el conflicto sigue vigente dejar en blanco). |
+| Descripción| Campo de texto | Relato de los hechos y estado actual (incluye un pequeño editor de texto). |
+| Actores | Campo de texto | Personas, empresas e instituciones involucradas. |
+| Acciones | Campo de texto | Acciones realizadas ante el conflicto. |
+| Respuesta institucional | Campo de texto | Respuesta de las administraciones públicas responsables. |
+| Imagen principal | Botón de subida de ficheros| Imagen que aparece en la ventana desplegable al hacer clic en un icono de conflicto ambiental en el mapa. |
+| Galería de fotos | Botón de subida de ficheros | Fotografías y vídeos del conflicto. |
+| Documentación | Botón de subida de ficheros | Documentos relacionados en formato pdf. |
+
+Los campos con asterisco (*) son obligatorios para poder registra un conflicto ambiental en la base de datos.
+
+:::{.callout-tip}
+## Ubicación actual
+Si se accede a la aplicación desde un teléfono móvil, el mapa de ubicación reflejará la ubicación actual del teléfono, por lo que puedes registrarla pulsando sobre el botón [Usa mi ubicación]{.ui}. Esto permite registrar rápidamente un conflicto ambiental sobre el terreno, siempre que haya cobertura.
+:::
+
+:::{.callout-important}
+Es importante incluir al menos una foto en la imagen principal y una descripción detallada del conflicto.
+:::
+
+Una vez rellenados los campos del formulario, pulsa el botón [Envía a revisión]{.ui} para que la persona con el rol de editora pueda revisarla y publicarla. Tras esto, aparecerá una nueva tarjeta en el escritorio de gestión correspondiente al conflicto registrado.
+
+:::{.callout-warning}
+El conflicto ambiental registrado no aparecerá en el mapa de la aplicación hasta que una persona con el rol de editora lo revise y publique. Ten paciencia porque el proceso de revisión puede tardar unos días.
+:::
+
+## Modificar un conflicto registrado
+
+Para modificar un conflicto ambiental registrado hay que hacer clic en el botón 

@@ -50,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./08-alta-de-conflicto.html" rel="next">
+<link href="./08-registro-conflicto.html" rel="next">
 <link href="./06-compartir-y-exportar.html" rel="prev">
 <link href="./assets/logo.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -64,6 +64,8 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-f89b324762ea4852dc7f5afd4eed7c03.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-6b586718c33ae211f5084efe567ce505.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -115,7 +117,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Colaborar: área de gestión</a></li><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Añadir conflictos al mapa</a></li><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -215,7 +217,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Colaborar: área de gestión</span></a>
+ <span class="menu-text">Añadir conflictos al mapa</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -229,13 +231,13 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-alta-de-conflicto.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></span></a>
+  <a href="./08-registro-conflicto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-edicion-y-estados.html" class="sidebar-item-text sidebar-link">
+  <a href="./09-modificacion-conflicto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></span></a>
   </div>
 </li>
@@ -308,14 +310,13 @@ div.csl-indent {
   <li><a href="#iniciar-sesión" id="toc-iniciar-sesión" class="nav-link" data-scroll-target="#iniciar-sesión"><span class="header-section-number">7.2</span> Iniciar sesión</a></li>
   <li><a href="#recuperar-la-contraseña" id="toc-recuperar-la-contraseña" class="nav-link" data-scroll-target="#recuperar-la-contraseña"><span class="header-section-number">7.3</span> Recuperar la contraseña</a></li>
   <li><a href="#el-escritorio-de-gestión" id="toc-el-escritorio-de-gestión" class="nav-link" data-scroll-target="#el-escritorio-de-gestión"><span class="header-section-number">7.4</span> El escritorio de gestión</a></li>
-  <li><a href="#perfiles-y-permisos" id="toc-perfiles-y-permisos" class="nav-link" data-scroll-target="#perfiles-y-permisos"><span class="header-section-number">7.5</span> Perfiles y permisos</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Colaborar: área de gestión</a></li><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Añadir conflictos al mapa</a></li><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></h1>
 </div>
@@ -334,36 +335,27 @@ div.csl-indent {
 </header>
 
 
-<p>El área de gestión (https://conflictosambientales.ecologistasenaccion.org/gestion/) es la zona privada donde los grupos y plataformas registran y actualizan sus conflictos.</p>
+<p>El área de gestión <a href="https://conflictosambientales.ecologistasenaccion.org/gestion/">https://conflictosambientales.ecologistasenaccion.org/gestion/</a> es la zona privada donde los grupos y las personas colaboradoras registran y actualizan sus conflictos.</p>
 <section id="obtener-una-cuenta" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="obtener-una-cuenta"><span class="header-section-number">7.1</span> Obtener una cuenta</h2>
-<p><em>(pendiente)</em> Explica cómo se solicita el alta, quién la aprueba y qué datos se piden.</p>
+<p>Para obtener una cuenta de colaboradora ponte en contacto con tu grupo local y solicita la cuenta. Si en tu grupo no hay nadie con permisos de coordinación territorial, puedes escribir a <a href="mailto: conflictosambientales@ecologistasenaccion.org">conflictosambientales@ecologistasenaccion.org</a> indicando tu nombre, correo y grupo local.</p>
 </section>
 <section id="iniciar-sesión" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="iniciar-sesión"><span class="header-section-number">7.2</span> Iniciar sesión</h2>
 <div class="pasos">
 <ol type="1">
-<li>Entra en https://conflictosambientales.ecologistasenaccion.org/gestion/.</li>
-<li>Escribe tu <strong>usuario o correo</strong> y tu <strong>contraseña</strong>.</li>
+<li>Haz clic en el botón de selección de región <i class="fa-solid fa-map-location-dot" aria-label="map-location-dot"></i> y después en el botón <span class="ui">Area privada</span> o abre directamente la url <a href="https://conflictosambientales.ecologistasenaccion.org/gestion/">https://conflictosambientales.ecologistasenaccion.org/gestion/</a>.</li>
+<li>Escribe tu <strong>nombre de usuario o dirección de correo</strong> y tu <strong>contraseña</strong>.</li>
 <li>Pulsa <span class="ui">Acceder</span>.</li>
 </ol>
-</div>
-<div id="fig-acceso" class="captura quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-acceso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="assets/capturas/gestion-acceso.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;7.1: Formulario de acceso al área de gestión."><img src="assets/capturas/gestion-acceso.png" class="captura img-fluid figure-img" style="width:70.0%"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acceso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.1: Formulario de acceso al área de gestión.
-</figcaption>
-</figure>
 </div>
 </section>
 <section id="recuperar-la-contraseña" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="recuperar-la-contraseña"><span class="header-section-number">7.3</span> Recuperar la contraseña</h2>
+<p>Si no recuerdas tu contraseña puedes cambiarla por otra siguiendo los siguientes pasos.</p>
 <div class="pasos">
 <ol type="1">
-<li>En el formulario de acceso, pulsa <span class="ui">¿Olvidaste la contraseña?</span>.</li>
+<li>En el formulario de acceso, pulsa <span class="ui">Reestrablecer contraseña</span>.</li>
 <li>Indica el correo asociado a la cuenta.</li>
 <li>Abre el mensaje recibido y define una contraseña nueva.</li>
 </ol>
@@ -384,11 +376,15 @@ Seguridad de la cuenta
 </section>
 <section id="el-escritorio-de-gestión" class="level2" data-number="7.4">
 <h2 data-number="7.4" class="anchored" data-anchor-id="el-escritorio-de-gestión"><span class="header-section-number">7.4</span> El escritorio de gestión</h2>
-<p><em>(pendiente)</em> Describe lo que se ve tras acceder: listado de conflictos propios, estados, buscador interno y botón para crear uno nuevo.</p>
-</section>
-<section id="perfiles-y-permisos" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="perfiles-y-permisos"><span class="header-section-number">7.5</span> Perfiles y permisos</h2>
-<p><em>(pendiente)</em> Detalla qué puede hacer cada perfil (colaboración, edición, coordinación territorial) y a quién dirigirse para ampliar permisos.</p>
+<p>Al acceder al área de gestión de conflictos ambientales, verás una página con la lista de tarjetas de los conflictos ambientales que has registrado en la aplicación.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./assets/capturas/escritorio-gestion-conflictos.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Escritorio de gestión de conflictos ambientales"><img src="./assets/capturas/escritorio-gestion-conflictos.png" class="img-fluid figure-img" alt="Escritorio de gestión de conflictos ambientales"></a></p>
+<figcaption>Escritorio de gestión de conflictos ambientales</figcaption>
+</figure>
+</div>
+<p>En esta página puedes filtrar tus conflictos ambientales por provincia, municipio, medios afectados, causa del conflicto y niveles de gravedad.</p>
+<p>Cada tarjeta incluye tres iconos de acción: <i class="fa-solid fa-eye" aria-label="eye"></i> para ver la ficha del conflicto, <i class="fa-solid fa-pen-to-square" aria-label="pen-to-square"></i> para editarlo y <i class="fa-solid fa-circle-xmark" aria-label="circle-xmark"></i> para eliminarlo.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -977,8 +973,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./08-alta-de-conflicto.html" class="pagination-link" aria-label="Dar de alta un conflicto">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./08-registro-conflicto.html" class="pagination-link" aria-label="Registrar un nuevo conflicto">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

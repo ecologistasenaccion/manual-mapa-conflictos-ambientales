@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>8&nbsp; Dar de alta un conflicto – Mapa de Conflictos Ambientales</title>
+<title>9&nbsp; Editar y actualizar conflictos – Mapa de Conflictos Ambientales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./09-edicion-y-estados.html" rel="next">
-<link href="./07-acceso-area-gestion.html" rel="prev">
+<link href="./10-multimedia-y-documentos.html" rel="next">
+<link href="./08-registro-conflicto.html" rel="prev">
 <link href="./assets/logo.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -64,9 +64,6 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-f89b324762ea4852dc7f5afd4eed7c03.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-6b586718c33ae211f5084efe567ce505.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,7 +112,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Colaborar: área de gestión</a></li><li class="breadcrumb-item"><a href="./08-alta-de-conflicto.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Añadir conflictos al mapa</a></li><li class="breadcrumb-item"><a href="./09-modificacion-conflicto.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -215,7 +212,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Colaborar: área de gestión</span></a>
+ <span class="menu-text">Añadir conflictos al mapa</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -229,13 +226,13 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-alta-de-conflicto.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></span></a>
+  <a href="./08-registro-conflicto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-edicion-y-estados.html" class="sidebar-item-text sidebar-link">
+  <a href="./09-modificacion-conflicto.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></span></a>
   </div>
 </li>
@@ -304,20 +301,20 @@ div.csl-indent {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#antes-de-empezar" id="toc-antes-de-empezar" class="nav-link active" data-scroll-target="#antes-de-empezar"><span class="header-section-number">8.1</span> Antes de empezar</a></li>
-  <li><a href="#el-formulario-paso-a-paso" id="toc-el-formulario-paso-a-paso" class="nav-link" data-scroll-target="#el-formulario-paso-a-paso"><span class="header-section-number">8.2</span> El formulario paso a paso</a></li>
-  <li><a href="#campos-obligatorios" id="toc-campos-obligatorios" class="nav-link" data-scroll-target="#campos-obligatorios"><span class="header-section-number">8.3</span> Campos obligatorios</a></li>
-  <li><a href="#situar-el-conflicto-en-el-mapa" id="toc-situar-el-conflicto-en-el-mapa" class="nav-link" data-scroll-target="#situar-el-conflicto-en-el-mapa"><span class="header-section-number">8.4</span> Situar el conflicto en el mapa</a></li>
-  <li><a href="#qué-ocurre-al-enviar" id="toc-qué-ocurre-al-enviar" class="nav-link" data-scroll-target="#qué-ocurre-al-enviar"><span class="header-section-number">8.5</span> Qué ocurre al enviar</a></li>
+  <li><a href="#estados-de-una-ficha" id="toc-estados-de-una-ficha" class="nav-link active" data-scroll-target="#estados-de-una-ficha"><span class="header-section-number">9.1</span> Estados de una ficha</a></li>
+  <li><a href="#modificar-una-ficha-existente" id="toc-modificar-una-ficha-existente" class="nav-link" data-scroll-target="#modificar-una-ficha-existente"><span class="header-section-number">9.2</span> Modificar una ficha existente</a></li>
+  <li><a href="#mantener-la-información-al-día" id="toc-mantener-la-información-al-día" class="nav-link" data-scroll-target="#mantener-la-información-al-día"><span class="header-section-number">9.3</span> Mantener la información al día</a></li>
+  <li><a href="#cerrar-o-archivar-un-conflicto" id="toc-cerrar-o-archivar-un-conflicto" class="nav-link" data-scroll-target="#cerrar-o-archivar-un-conflicto"><span class="header-section-number">9.4</span> Cerrar o archivar un conflicto</a></li>
+  <li><a href="#eliminar" id="toc-eliminar" class="nav-link" data-scroll-target="#eliminar"><span class="header-section-number">9.5</span> Eliminar</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Colaborar: área de gestión</a></li><li class="breadcrumb-item"><a href="./08-alta-de-conflicto.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Añadir conflictos al mapa</a></li><li class="breadcrumb-item"><a href="./09-modificacion-conflicto.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></h1>
 </div>
 
 
@@ -334,122 +331,87 @@ div.csl-indent {
 </header>
 
 
-<section id="antes-de-empezar" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="antes-de-empezar"><span class="header-section-number">8.1</span> Antes de empezar</h2>
-<p>Reúne esta información; así completarás el formulario de una sola vez:</p>
-<ul>
-<li>Título claro y localización (comunidad, provincia, municipio).</li>
-<li>Coordenadas o referencia precisa del lugar.</li>
-<li>Descripción de los hechos y fecha de inicio.</li>
-<li>Medio afectado, causa y nivel de gravedad.</li>
-<li>Entidades implicadas y datos de contacto.</li>
-<li>Enlaces a noticias, documentos administrativos e imágenes con licencia.</li>
-</ul>
-</section>
-<section id="el-formulario-paso-a-paso" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="el-formulario-paso-a-paso"><span class="header-section-number">8.2</span> El formulario paso a paso</h2>
-<div class="pasos">
-<ol type="1">
-<li>En el escritorio de gestión, pulsa <span class="ui">Añadir conflicto</span>.</li>
-<li>Completa el bloque <strong>Identificación</strong>: título y resumen.</li>
-<li>Completa <strong>Localización</strong>: comunidad, provincia, municipio y punto en el mapa.</li>
-<li>Completa <strong>Clasificación</strong>: medio afectado, causa y nivel de gravedad.</li>
-<li>Redacta la <strong>Descripción</strong> y añade la <strong>fecha de inicio</strong>.</li>
-<li>Añade <strong>entidades, enlaces y documentos</strong>.</li>
-<li>Guarda como <span class="ui">Borrador</span> o envía a <span class="ui">Revisión</span>.</li>
-</ol>
-</div>
-<div id="fig-alta" class="captura quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-alta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="assets/capturas/gestion-formulario-alta.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;8.1: Formulario de alta de un conflicto."><img src="assets/capturas/gestion-formulario-alta.png" class="captura img-fluid figure-img" style="width:95.0%"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-alta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;8.1: Formulario de alta de un conflicto.
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="campos-obligatorios" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="campos-obligatorios"><span class="header-section-number">8.3</span> Campos obligatorios</h2>
+<section id="estados-de-una-ficha" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="estados-de-una-ficha"><span class="header-section-number">9.1</span> Estados de una ficha</h2>
 <table class="table-striped table-hover caption-top table">
-<caption>Campos del formulario de alta <em>(pendiente de confirmar)</em></caption>
+<caption>Estados de un conflicto <em>(pendiente de confirmar)</em></caption>
 <thead>
 <tr class="header">
-<th>Campo</th>
-<th style="text-align: center;">¿Obligatorio?</th>
-<th>Notas</th>
+<th>Estado</th>
+<th>Qué significa</th>
+<th>Quién puede cambiarlo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Título</td>
-<td style="text-align: center;">Sí</td>
-<td>Breve y descriptivo, sin siglas</td>
+<td>Borrador</td>
+<td>En preparación, no visible al público</td>
+<td>Autoría</td>
 </tr>
 <tr class="even">
-<td>Comunidad autónoma</td>
-<td style="text-align: center;">Sí</td>
-<td>Determina provincia y municipio</td>
+<td>En revisión</td>
+<td>Enviado al equipo editor</td>
+<td>Autoría</td>
 </tr>
 <tr class="odd">
-<td>Municipio</td>
-<td style="text-align: center;">Sí</td>
-<td><em>(pendiente de confirmar)</em></td>
+<td>Publicado</td>
+<td>Visible en el mapa y el archivo</td>
+<td>Equipo editor</td>
 </tr>
 <tr class="even">
-<td>Coordenadas</td>
-<td style="text-align: center;">Sí</td>
-<td>Ver apartado siguiente</td>
-</tr>
-<tr class="odd">
-<td>Medio afectado</td>
-<td style="text-align: center;">Sí</td>
-<td>Puede marcarse más de uno</td>
-</tr>
-<tr class="even">
-<td>Causa del conflicto</td>
-<td style="text-align: center;">Sí</td>
-<td>Puede marcarse más de una</td>
-</tr>
-<tr class="odd">
-<td>Nivel de gravedad</td>
-<td style="text-align: center;">Sí</td>
-<td>Según los criterios acordados</td>
-</tr>
-<tr class="even">
-<td>Fecha de inicio</td>
-<td style="text-align: center;">Recomendado</td>
-<td>Al menos el año</td>
-</tr>
-<tr class="odd">
-<td>Descripción</td>
-<td style="text-align: center;">Sí</td>
-<td>Entre 1.000 y 3.000 caracteres <em>(orientativo)</em></td>
+<td>Archivado</td>
+<td>Conflicto cerrado o resuelto</td>
+<td>Equipo editor</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="situar-el-conflicto-en-el-mapa" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="situar-el-conflicto-en-el-mapa"><span class="header-section-number">8.4</span> Situar el conflicto en el mapa</h2>
-<p><em>(pendiente)</em> Explica cómo se fija el punto: búsqueda por dirección, clic sobre el mapa o introducción de latitud y longitud.</p>
-<div class="callout callout-style-default callout-important callout-titled">
+<section id="modificar-una-ficha-existente" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="modificar-una-ficha-existente"><span class="header-section-number">9.2</span> Modificar una ficha existente</h2>
+<div class="pasos">
+<ol type="1">
+<li>Entra en el área de gestión y localiza el conflicto en tu listado.</li>
+<li>Pulsa <span class="ui">Editar</span>.</li>
+<li>Cambia lo necesario y revisa la fecha de actualización.</li>
+<li>Guarda; si la ficha ya estaba publicada, <em>(pendiente: indicar si los cambios se publican al instante o pasan por revisión)</em>.</li>
+</ol>
+</div>
+</section>
+<section id="mantener-la-información-al-día" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="mantener-la-información-al-día"><span class="header-section-number">9.3</span> Mantener la información al día</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Ubicaciones sensibles
+Buen hábito
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si localizar con exactitud el punto puede poner en riesgo a una especie, un yacimiento o a las personas denunciantes, usa una referencia aproximada y explícalo en la descripción.</p>
+<p>Revisa tus conflictos al menos <strong>una vez al año</strong> y cada vez que haya una resolución administrativa o judicial, una movilización relevante o un cambio en el estado del proyecto denunciado.</p>
 </div>
 </div>
 </section>
-<section id="qué-ocurre-al-enviar" class="level2" data-number="8.5">
-<h2 data-number="8.5" class="anchored" data-anchor-id="qué-ocurre-al-enviar"><span class="header-section-number">8.5</span> Qué ocurre al enviar</h2>
-<p><em>(pendiente)</em> Describe el circuito de revisión: quién lo valida, en cuánto tiempo y cómo se avisa de la publicación.</p>
+<section id="cerrar-o-archivar-un-conflicto" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="cerrar-o-archivar-un-conflicto"><span class="header-section-number">9.4</span> Cerrar o archivar un conflicto</h2>
+<p><em>(pendiente)</em> Explica cuándo se considera que un conflicto ha terminado y qué se conserva de su ficha.</p>
+</section>
+<section id="eliminar" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="eliminar"><span class="header-section-number">9.5</span> Eliminar</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Advertencia
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La eliminación no es reversible. Antes de borrar, valora si procede archivar la ficha para conservar la memoria del conflicto.</p>
+</div>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -1033,13 +995,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./07-acceso-area-gestion.html" class="pagination-link" aria-label="Acceso al área de gestión">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></span>
+      <a href="./08-registro-conflicto.html" class="pagination-link" aria-label="Registrar un nuevo conflicto">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./09-edicion-y-estados.html" class="pagination-link" aria-label="Editar y actualizar conflictos">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./10-multimedia-y-documentos.html" class="pagination-link" aria-label="Imágenes, documentos y enlaces">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Imágenes, documentos y enlaces</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1057,38 +1019,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

@@ -28,7 +28,7 @@ Si quieres citar el mapa o un conflicto ambiental en un informe otrabajo académ
 
 ## Descarga de datos
 
-Es posible exportar los datos de los conflictos ambientales en formato CSV. Para ello hay que hacer clic en el botón de selección de región ![](assets/capturas/boton-seleccion-region.png) y después hacer clic en el cuadro desplegable en el botón [Archivo Conflictos]{.ui}.
+Es posible exportar los datos de los conflictos ambientales en formato CSV. Para ello hay que hacer clic en el botón de selección de región {{< fa map-location-dot >}} y después hacer clic en el cuadro desplegable en el botón [Archivo Conflictos]{.ui}.
 
 Con ello se accede a la página del archivo de conflictos, donde se pueden filtrar los conflictos y descargar los conflictos seleccionados en formato CSV haciendo clic en el enlace que aparece abajo [Descargar los datos filtrados en formato CSV]{.ui}.
 

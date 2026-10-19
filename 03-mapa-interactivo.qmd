@@ -42,6 +42,6 @@ Al hacer clic sobre el icono de un conflicto se muestra una ventana emergente co
 
 ## Estadísticas de conflictos ambientales
 
-Se puede acceder a un resumen estadístico con el número de conflictos registrados en el mapa, clasificados por medio afectado, causa y nivel de gravedad, haciendo clic en el botón ![](assets/capturas/boton-estadisticas.png){width="20px"}.
+Se puede acceder a un resumen estadístico con el número de conflictos registrados en el mapa, clasificados por medio afectado, causa y nivel de gravedad, haciendo clic en el botón {{< fa list-ul >}}.
 
 ![Estadísticas de conflictos ambientales.](assets/capturas/estadisticas.png){width="40%"}

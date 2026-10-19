@@ -1,43 +1,41 @@
 # Acceso al área de gestión
 
-El área de gestión ({{< var app.gestion >}}) es la zona privada donde los grupos
-y plataformas registran y actualizan sus conflictos.
+El área de gestión [https://conflictosambientales.ecologistasenaccion.org/gestion/](https://conflictosambientales.ecologistasenaccion.org/gestion/) es la zona privada donde los grupos y las personas colaboradoras registran y actualizan sus conflictos.
+
 
 ## Obtener una cuenta
 
-*(pendiente)* Explica cómo se solicita el alta, quién la aprueba y qué datos se
-piden.
+Para obtener una cuenta de colaboradora ponte en contacto con tu grupo local y solicita la cuenta. Si en tu grupo no hay nadie con permisos de coordinación territorial, puedes escribir a [{{< var entidad.contacto >}}](mailto: {{< var entidad.contacto >}}) indicando tu nombre, correo y grupo local.
 
 ## Iniciar sesión
 
 ::: {.pasos}
-1. Entra en {{< var app.gestion >}}.
-2. Escribe tu **usuario o correo** y tu **contraseña**.
+1. Haz clic en el botón de selección de región {{< fa map-location-dot >}} y después en el botón [Area privada]{.ui} o abre directamente la url [https://conflictosambientales.ecologistasenaccion.org/gestion/](https://conflictosambientales.ecologistasenaccion.org/gestion/).
+2. Escribe tu **nombre de usuario o dirección de correo** y tu **contraseña**.
 3. Pulsa [Acceder]{.ui}.
 :::
 
-![Formulario de acceso al área de gestión.](assets/capturas/gestion-acceso.png){#fig-acceso .captura width=70%}
-
 ## Recuperar la contraseña
 
+Si no recuerdas tu contraseña puedes cambiarla por otra siguiendo los siguientes pasos.
+
 ::: {.pasos}
-1. En el formulario de acceso, pulsa [¿Olvidaste la contraseña?]{.ui}.
+1. En el formulario de acceso, pulsa [Reestrablecer contraseña]{.ui}.
 2. Indica el correo asociado a la cuenta.
 3. Abre el mensaje recibido y define una contraseña nueva.
 :::
 
 ::: {.callout-warning}
 ## Seguridad de la cuenta
-Usa una contraseña larga y exclusiva para este sitio, no compartas la cuenta
-entre varias personas y cierra la sesión en equipos compartidos.
+Usa una contraseña larga y exclusiva para este sitio, no compartas la cuenta entre varias personas y cierra la sesión en equipos compartidos.
 :::
 
 ## El escritorio de gestión
 
-*(pendiente)* Describe lo que se ve tras acceder: listado de conflictos propios,
-estados, buscador interno y botón para crear uno nuevo.
+Al acceder al área de gestión de conflictos ambientales, verás una página con la lista de tarjetas de los conflictos ambientales que has registrado en la aplicación. 
 
-## Perfiles y permisos
+![Escritorio de gestión de conflictos ambientales](/assets/capturas/escritorio-gestion-conflictos.png)
 
-*(pendiente)* Detalla qué puede hacer cada perfil (colaboración, edición,
-coordinación territorial) y a quién dirigirse para ampliar permisos.
+En esta página puedes filtrar tus conflictos ambientales por provincia, municipio, medios afectados, causa del conflicto y niveles de gravedad.
+
+Cada tarjeta incluye tres iconos de acción: {{< fa eye >}} para ver la ficha del conflicto, {{< fa pen-to-square >}} para editarlo y {{< fa circle-xmark >}} para eliminarlo.

@@ -52,11 +52,11 @@ book:
         - 04-filtros.qmd
         - 05-ficha-conflicto.qmd
         - 06-compartir-y-exportar.qmd
-    - part: "Colaborar: área de gestión"
+    - part: "Añadir conflictos al mapa"
       chapters:
         - 07-acceso-area-gestion.qmd
-        - 08-alta-de-conflicto.qmd
-        - 09-edicion-y-estados.qmd
+        - 08-registro-conflicto.qmd
+        - 09-modificacion-conflicto.qmd
         - 10-multimedia-y-documentos.qmd
         - 11-criterios-de-calidad.qmd
 

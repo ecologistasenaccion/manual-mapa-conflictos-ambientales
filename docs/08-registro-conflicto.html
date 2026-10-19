@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; Editar y actualizar conflictos – Mapa de Conflictos Ambientales</title>
+<title>8&nbsp; Registrar un nuevo conflicto – Mapa de Conflictos Ambientales</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./10-multimedia-y-documentos.html" rel="next">
-<link href="./08-alta-de-conflicto.html" rel="prev">
+<link href="./09-modificacion-conflicto.html" rel="next">
+<link href="./07-acceso-area-gestion.html" rel="prev">
 <link href="./assets/logo.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -64,6 +64,9 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-f89b324762ea4852dc7f5afd4eed7c03.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-6b586718c33ae211f5084efe567ce505.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,7 +115,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Colaborar: área de gestión</a></li><li class="breadcrumb-item"><a href="./09-edicion-y-estados.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Añadir conflictos al mapa</a></li><li class="breadcrumb-item"><a href="./08-registro-conflicto.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -212,7 +215,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Colaborar: área de gestión</span></a>
+ <span class="menu-text">Añadir conflictos al mapa</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -226,13 +229,13 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-alta-de-conflicto.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></span></a>
+  <a href="./08-registro-conflicto.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-edicion-y-estados.html" class="sidebar-item-text sidebar-link active">
+  <a href="./09-modificacion-conflicto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></span></a>
   </div>
 </li>
@@ -301,20 +304,16 @@ div.csl-indent {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#estados-de-una-ficha" id="toc-estados-de-una-ficha" class="nav-link active" data-scroll-target="#estados-de-una-ficha"><span class="header-section-number">9.1</span> Estados de una ficha</a></li>
-  <li><a href="#modificar-una-ficha-existente" id="toc-modificar-una-ficha-existente" class="nav-link" data-scroll-target="#modificar-una-ficha-existente"><span class="header-section-number">9.2</span> Modificar una ficha existente</a></li>
-  <li><a href="#mantener-la-información-al-día" id="toc-mantener-la-información-al-día" class="nav-link" data-scroll-target="#mantener-la-información-al-día"><span class="header-section-number">9.3</span> Mantener la información al día</a></li>
-  <li><a href="#cerrar-o-archivar-un-conflicto" id="toc-cerrar-o-archivar-un-conflicto" class="nav-link" data-scroll-target="#cerrar-o-archivar-un-conflicto"><span class="header-section-number">9.4</span> Cerrar o archivar un conflicto</a></li>
-  <li><a href="#eliminar" id="toc-eliminar" class="nav-link" data-scroll-target="#eliminar"><span class="header-section-number">9.5</span> Eliminar</a></li>
+  <li><a href="#modificar-un-conflicto-registrado" id="toc-modificar-un-conflicto-registrado" class="nav-link active" data-scroll-target="#modificar-un-conflicto-registrado"><span class="header-section-number">8.1</span> Modificar un conflicto registrado</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Colaborar: área de gestión</a></li><li class="breadcrumb-item"><a href="./09-edicion-y-estados.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-acceso-area-gestion.html">Añadir conflictos al mapa</a></li><li class="breadcrumb-item"><a href="./08-registro-conflicto.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Registrar un nuevo conflicto</span></h1>
 </div>
 
 
@@ -331,74 +330,144 @@ div.csl-indent {
 </header>
 
 
-<section id="estados-de-una-ficha" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="estados-de-una-ficha"><span class="header-section-number">9.1</span> Estados de una ficha</h2>
-<table class="table-striped table-hover caption-top table">
-<caption>Estados de un conflicto <em>(pendiente de confirmar)</em></caption>
+<p>Para registrar un nuevo conflicto hay que hacer clic en el botón <span class="ui">Añade un Conflicto</span>.</p>
+<p>Se abrirá un formulario donde deben rellenarse los campos del conflicto.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./assets/capturas/formulario-registro-conflicto.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Formulario de registro de un conflicto"><img src="./assets/capturas/formulario-registro-conflicto.png" class="img-fluid figure-img" style="width:80.0%" alt="Formulario de registro de un conflicto"></a></p>
+<figcaption>Formulario de registro de un conflicto</figcaption>
+</figure>
+</div>
+<p>Los campos del formulario son:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 62%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Estado</th>
-<th>Qué significa</th>
-<th>Quién puede cambiarlo</th>
+<th>Campo</th>
+<th>Tipo</th>
+<th>Contenido</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Borrador</td>
-<td>En preparación, no visible al público</td>
-<td>Autoría</td>
+<td>Título</td>
+<td>Campo de texto</td>
+<td>Título abreviado del conflicto ambiental.</td>
 </tr>
 <tr class="even">
-<td>En revisión</td>
-<td>Enviado al equipo editor</td>
-<td>Autoría</td>
+<td>Provincia</td>
+<td>Cuadros de selección</td>
+<td>Provincia donde se ubica el conflicto ambiental.</td>
 </tr>
 <tr class="odd">
-<td>Publicado</td>
-<td>Visible en el mapa y el archivo</td>
-<td>Equipo editor</td>
+<td>Municipio</td>
+<td>Cuadros de selección</td>
+<td>Municipio donde se ubica el conflicto ambiental (si no aparece se puede añadir con el botón <span class="ui">Añadir nuevo</span>)</td>
 </tr>
 <tr class="even">
-<td>Archivado</td>
-<td>Conflicto cerrado o resuelto</td>
-<td>Equipo editor</td>
+<td>Lugar</td>
+<td>Campo de texto</td>
+<td>Nombre del paraje o lugar donde se ubica el conflicto ambiental.</td>
+</tr>
+<tr class="odd">
+<td>Nivel de Gravedad</td>
+<td>Cuadro desplegable</td>
+<td>Nivel de gravedad del conflicto ambiental: Baja, Media o Alta.</td>
+</tr>
+<tr class="even">
+<td>Ubicación</td>
+<td>Coordenadas (Latitud, Longitud)</td>
+<td>Coordenadas aproximadas de ubicación del conflicto ambiental (se pueden introducir a mano o haciendo clic sobre el mapa interactivo).</td>
+</tr>
+<tr class="odd">
+<td>Medios afectados</td>
+<td>Cuadros de selección</td>
+<td>Agua, aire, caminos públicos, ecosistemas, espacios naturales protegidos, fauna, flora, paisaje, patrimonio, suelo, otros. (se pueden seleccionar más de uno).</td>
+</tr>
+<tr class="even">
+<td>Causas del conflicto</td>
+<td>Cuadros de selección</td>
+<td>Agricultura, caza, energía, ganadería, incendio, industria, militar, minería, pesca, residuos, transporte, turismo y ocio, urbanismo, otras. (se pueden seleccionar más de una).</td>
+</tr>
+<tr class="odd">
+<td>Inicio</td>
+<td>Fecha</td>
+<td>Fecha aproximada de inicio del conflicto.</td>
+</tr>
+<tr class="even">
+<td>Fin</td>
+<td>Fecha</td>
+<td>Fecha aproximada de finalización del conflicto (si el conflicto sigue vigente dejar en blanco).</td>
+</tr>
+<tr class="odd">
+<td>Descripción</td>
+<td>Campo de texto</td>
+<td>Relato de los hechos y estado actual (incluye un pequeño editor de texto).</td>
+</tr>
+<tr class="even">
+<td>Actores</td>
+<td>Campo de texto</td>
+<td>Personas, empresas e instituciones involucradas.</td>
+</tr>
+<tr class="odd">
+<td>Acciones</td>
+<td>Campo de texto</td>
+<td>Acciones realizadas ante el conflicto.</td>
+</tr>
+<tr class="even">
+<td>Respuesta institucional</td>
+<td>Campo de texto</td>
+<td>Respuesta de las administraciones públicas responsables.</td>
+</tr>
+<tr class="odd">
+<td>Imagen principal</td>
+<td>Botón de subida de ficheros</td>
+<td>Imagen que aparece en la ventana desplegable al hacer clic en un icono de conflicto ambiental en el mapa.</td>
+</tr>
+<tr class="even">
+<td>Galería de fotos</td>
+<td>Botón de subida de ficheros</td>
+<td>Fotografías y vídeos del conflicto.</td>
+</tr>
+<tr class="odd">
+<td>Documentación</td>
+<td>Botón de subida de ficheros</td>
+<td>Documentos relacionados en formato pdf.</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="modificar-una-ficha-existente" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="modificar-una-ficha-existente"><span class="header-section-number">9.2</span> Modificar una ficha existente</h2>
-<div class="pasos">
-<ol type="1">
-<li>Entra en el área de gestión y localiza el conflicto en tu listado.</li>
-<li>Pulsa <span class="ui">Editar</span>.</li>
-<li>Cambia lo necesario y revisa la fecha de actualización.</li>
-<li>Guarda; si la ficha ya estaba publicada, <em>(pendiente: indicar si los cambios se publican al instante o pasan por revisión)</em>.</li>
-</ol>
-</div>
-</section>
-<section id="mantener-la-información-al-día" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="mantener-la-información-al-día"><span class="header-section-number">9.3</span> Mantener la información al día</h2>
+<p>Los campos con asterisco (*) son obligatorios para poder registra un conflicto ambiental en la base de datos.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Buen hábito
+Ubicación actual
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Revisa tus conflictos al menos <strong>una vez al año</strong> y cada vez que haya una resolución administrativa o judicial, una movilización relevante o un cambio en el estado del proyecto denunciado.</p>
+<p>Si se accede a la aplicación desde un teléfono móvil, el mapa de ubicación reflejará la ubicación actual del teléfono, por lo que puedes registrarla pulsando sobre el botón <span class="ui">Usa mi ubicación</span>. Esto permite registrar rápidamente un conflicto ambiental sobre el terreno, siempre que haya cobertura.</p>
 </div>
 </div>
-</section>
-<section id="cerrar-o-archivar-un-conflicto" class="level2" data-number="9.4">
-<h2 data-number="9.4" class="anchored" data-anchor-id="cerrar-o-archivar-un-conflicto"><span class="header-section-number">9.4</span> Cerrar o archivar un conflicto</h2>
-<p><em>(pendiente)</em> Explica cuándo se considera que un conflicto ha terminado y qué se conserva de su ficha.</p>
-</section>
-<section id="eliminar" class="level2" data-number="9.5">
-<h2 data-number="9.5" class="anchored" data-anchor-id="eliminar"><span class="header-section-number">9.5</span> Eliminar</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Es importante incluir al menos una foto en la imagen principal y una descripción detallada del conflicto.</p>
+</div>
+</div>
+<p>Una vez rellenados los campos del formulario, pulsa el botón <span class="ui">Envía a revisión</span> para que la persona con el rol de editora pueda revisarla y publicarla. Tras esto, aparecerá una nueva tarjeta en el escritorio de gestión correspondiente al conflicto registrado.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -409,9 +478,12 @@ Advertencia
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La eliminación no es reversible. Antes de borrar, valora si procede archivar la ficha para conservar la memoria del conflicto.</p>
+<p>El conflicto ambiental registrado no aparecerá en el mapa de la aplicación hasta que una persona con el rol de editora lo revise y publique. Ten paciencia porque el proceso de revisión puede tardar unos días.</p>
 </div>
 </div>
+<section id="modificar-un-conflicto-registrado" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="modificar-un-conflicto-registrado"><span class="header-section-number">8.1</span> Modificar un conflicto registrado</h2>
+<p>Para modificar un conflicto ambiental registrado hay que hacer clic en el botón</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -995,13 +1067,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./08-alta-de-conflicto.html" class="pagination-link" aria-label="Dar de alta un conflicto">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Dar de alta un conflicto</span></span>
+      <a href="./07-acceso-area-gestion.html" class="pagination-link" aria-label="Acceso al área de gestión">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Acceso al área de gestión</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./10-multimedia-y-documentos.html" class="pagination-link" aria-label="Imágenes, documentos y enlaces">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Imágenes, documentos y enlaces</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./09-modificacion-conflicto.html" class="pagination-link" aria-label="Editar y actualizar conflictos">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Editar y actualizar conflictos</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1019,6 +1091,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

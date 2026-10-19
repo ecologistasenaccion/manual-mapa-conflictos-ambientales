@@ -3,4 +3,6 @@ Tareas pendientes:
 - Añadir un botón de buscar.
 - Añadir un filtro por fecha.
 - Añadir un botón de compartir en la ficha de cada conflicto.
+- Indicar campos obligatorios en el formulario de conflictos.
+- Quitar la opción de añadir nuevo nivel de gravedad.
 

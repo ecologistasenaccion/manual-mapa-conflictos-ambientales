@@ -117,3 +117,13 @@
 \usepackage{enumitem}
 \setlist{itemsep=2pt, parsep=0pt, topsep=4pt}
 \renewcommand{\arraystretch}{1.15}
+
+% ------------- Font Awesome: evitar conflicto entre versiones 5 y 6 --------
+% Los callouts de Quarto cargan fontawesome5 y la extensión de iconos
+% fontawesome6. Se carga solo la 6 y se marca la 5 como ya cargada.
+\makeatletter
+\usepackage{fontawesome6}
+\@namedef{ver@fontawesome5.sty}{2020/01/01}
+% Alias de los iconos de v5 que usan los callouts de Quarto
+\providecommand{\faExclamationTriangle}{\faTriangleExclamation}
+\makeatother
