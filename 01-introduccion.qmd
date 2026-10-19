@@ -4,9 +4,11 @@
 
 El Mapa de Conflictos Ambientales es una aplicación web desarrollada por [Ecologistas en Acción](https://www.ecologistasenaccion.org/) que permite visualizar y analizar las conflictos ambientales en el Estado español. Es una herramienta de sensibilización de la población y de denuncia ante las distintas administraciones y empresas responsables de los impactos ambientales. El mapa se nutre de la información aportada por personas colaboradoras y por el propio equipo editor, que verifica y valida los datos antes de su publicación.
 
+![Mapa de conflictos ambientales](assets/capturas/mapa-conflictos.png){#fig-mapa width=80%}
+
 ## Qué se considera un conflicto ambiental
 
-Los conflictos ambientales contemplados son agresiones al medio ambiente y a su biodiversidad. 
+Los conflictos ambientales contemplados son agresiones al medio ambiente y a su biodiversidad y, por tanto, recogen acciones o actividades que han causado un daño relevante al entorno natural o sus poblaciones. También pueden incluirse proyectos o decisiones que amenazan con causar un daño ambiental significativo, aunque aún no se haya producido. En cualquier caso, el conflicto ambiental debe ser relevante y de interés público.
 
 ## Qué información recoge cada conflicto
 

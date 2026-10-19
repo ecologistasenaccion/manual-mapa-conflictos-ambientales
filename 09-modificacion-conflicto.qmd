@@ -1,42 +1,18 @@
-# Editar y actualizar conflictos
+# Modificar conflictos
 
-## Estados de una ficha
-
-| Estado | Qué significa | Quién puede cambiarlo |
-|---|---|---|
-| Borrador | En preparación, no visible al público | Autoría |
-| En revisión | Enviado al equipo editor | Autoría |
-| Publicado | Visible en el mapa y el archivo | Equipo editor |
-| Archivado | Conflicto cerrado o resuelto | Equipo editor |
-
-: Estados de un conflicto *(pendiente de confirmar)* {.striped .hover}
-
-## Modificar una ficha existente
-
-::: {.pasos}
-1. Entra en el área de gestión y localiza el conflicto en tu listado.
-2. Pulsa [Editar]{.ui}.
-3. Cambia lo necesario y revisa la fecha de actualización.
-4. Guarda; si la ficha ya estaba publicada, *(pendiente: indicar si los cambios se publican al instante o pasan por revisión)*.
-:::
-
-## Mantener la información al día
+Para modificar un conflicto ambiental registrado hay que hacer clic en el botón {{< fa pen-to-square >}} de la tarjeta correspondiente al conflicto en el escritorio de gestión. Con ello se vuelve a abrir el formulario de registro del conflicto, pero con los campos ya rellenados con la información previamente registrada, donde se pueden hacer las modificaciones necesarias.
 
 ::: {.callout-tip}
 ## Buen hábito
 Revisa tus conflictos al menos **una vez al año** y cada vez que haya una
-resolución administrativa o judicial, una movilización relevante o un cambio en
-el estado del proyecto denunciado.
+resolución administrativa o judicial, una movilización relevante o un cambio en el estado del proyecto, refléjalo en la ficha del conflicto.
 :::
 
-## Cerrar o archivar un conflicto
+## Eliminar un conflicto
 
-*(pendiente)* Explica cuándo se considera que un conflicto ha terminado y qué se
-conserva de su ficha.
+Para eliminar un conflicto ambiental de la base de datos, solo hay que hacer clic en el botón {{< fa circle-xmark >}} de la tarjeta correspondiente al conflicto en el escritorio de gestión.
 
-## Eliminar
 
 ::: {.callout-warning}
-La eliminación no es reversible. Antes de borrar, valora si procede archivar la
-ficha para conservar la memoria del conflicto.
+La eliminación no es reversible, por lo que asegúrate de que realmente quieres eliminar el conflicto antes de hacerlo. Si lo que quieres es que deje de aparecer en el mapa, puedes pedirle a un editor que lo marque como **en revisión**.
 :::

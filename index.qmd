@@ -38,7 +38,7 @@ Tienen cuenta en el área de gestión y dan de alta o actualizan conflictos.
 ### Equipo editor
 Revisa, valida y publica las aportaciones y vela por la calidad de los datos.
 
-→ [Criterios de calidad](11-criterios-de-calidad.qmd)
+→ [Criterios de calidad](10-criterios-de-calidad.qmd)
 :::
 :::
 
@@ -77,7 +77,7 @@ Los procedimientos paso a paso se presentan numerados:
 Si detectas un error o echas en falta algo, escribe a
 [{{< var entidad.contacto >}}](mailto:{{< var entidad.contacto >}}).
 
-## Licencia
+## Licencia {#licencia}
 
 Este manual se publica bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional ({{< var manual.licencia >}})](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
 

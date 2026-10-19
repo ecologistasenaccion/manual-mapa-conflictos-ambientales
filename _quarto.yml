@@ -57,24 +57,16 @@ book:
         - 07-acceso-area-gestion.qmd
         - 08-registro-conflicto.qmd
         - 09-modificacion-conflicto.qmd
-        - 10-multimedia-y-documentos.qmd
-        - 11-criterios-de-calidad.qmd
+        - 10-criterios-de-calidad.qmd
 
   appendices:
     - a-preguntas-frecuentes.qmd
     - b-glosario.qmd
-    - c-tablas-de-referencia.qmd
-    - d-solucion-de-problemas.qmd
-    - referencias.qmd
+    - c-solucion-de-problemas.qmd
 
 filters:
   - _extra/clases.lua
 
-bibliography: referencias.bib
-# Incluye todas las entradas del .bib aunque aún no se citen en el texto.
-# Elimínalo cuando el manual tenga sus propias citas.
-nocite: |
-  @*
 lang: es
 
 format:
@@ -102,6 +94,7 @@ format:
 
   pdf:
     documentclass: scrreprt
+    papersize: a4
     classoption:
       - paper=a4
       - fontsize=11pt

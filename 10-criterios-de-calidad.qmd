@@ -1,0 +1,44 @@
+# Criterios de calidad editorial
+
+## Qué se publica y qué no
+
+Para que el mapa no se llene de conflictos irrelevantes, duplicados o imprecisos, es necesario atender a unos mínimos de calidad editorial. Por ello, se revisarán los conflictos registrados antes de publicarlos en el mapa y se aplican los siguientes criterios:
+
+- No se publicarán conflictos que no tengan un mínimo de información: título, ubicación precisa, medio afectado, causa, nivel de gravedad y descripción.
+- No se publicarán conflictos duplicados o que tengan relación directa con otro conflicto ya publicado. En ese caso, la nueva información se puede añadir a la ficha existente.
+- No se publicarán conflictos que no tengan relevancia ambiental, aunque puedan tener interés social o político. 
+- Se pueden publicar conflictos ambientales que estén en fase de proyecto, siempre y cuando se pueda argumentar que la ejecución del proyecto supone un riesgo ambiental relevante. Si finalmente el proyecto no se ejecuta, se tiene que eliminar el conflicto de la base de datos.
+
+## Cómo redactar la descripción
+
+A la hora de rellenar la descripción del conflicto ambiental, ten en cuenta los siguientes consejos:
+
+- **Hechos antes que valoraciones**: qué se proyecta o se ha hecho, dónde, desde cuándo y quién lo promueve.
+- **Fuentes verificables** para cada dato relevante.
+- **Lenguaje claro**: frases cortas, sin siglas sin explicar ni tecnicismos innecesarios.
+- **Estructura sugerida**: contexto → afección ambiental → situación administrativa → respuesta social → situación actual.
+- **Cuidado con las acusaciones**: Señala a las personas, empresas o instituciones presuntamente responsables en el campo de actores del conflicto, pero no realices acusaciones directas a no ser que haya una sentencia judicial que lo respalde. 
+
+## Documentación y pruebas
+
+Es fundamental que toda la información publicada en el mapa esté respaldada por documentación y pruebas verificables. Estas pruebas pueden ser:
+
+- Fotografías y vídeos del conflicto ambiental. Asegúrate de que las imágenes tengan licencia libre o permiso del autor para su publicación. Mejor si son tus propias fotos o vídeos.
+- Documentos oficiales (resoluciones administrativas, sentencias judiciales, informes técnicos, etc). No subas nada que sea confidencial.
+
+## Protección de datos y seguridad
+
+::: {.callout-important}
+No publiques nombres, teléfonos ni direcciones de personas físicas sin su
+consentimiento expreso. Usa el contacto de la entidad, no el personal.
+:::
+
+## Lista de comprobación antes de publicar
+
+- [ ] El título identifica el conflicto sin ambigüedad.
+- [ ] La localización y el punto del mapa son correctos.
+- [ ] Medio afectado, causa y gravedad están justificados en el texto.
+- [ ] Cada afirmación relevante tiene fuente.
+- [ ] Las imágenes tienen autoría, licencia y texto alternativo.
+- [ ] No hay datos personales innecesarios.
+- [ ] No existe ya una ficha del mismo conflicto.

@@ -2,31 +2,39 @@
 
 ## Consulta
 
-**¿Hace falta registrarse para consultar el mapa?**
-No. Todo el contenido publicado es de acceso libre.
+-  **¿Hace falta registrarse para consultar el mapa?**  
+   No. Todo el contenido publicado es de acceso libre.
 
-**¿Por qué no encuentro un conflicto que conozco?**
-*(pendiente)* Posibles causas: aún no se ha registrado, está en revisión o los
-filtros activos lo excluyen.
+-  **¿Por qué no encuentro un conflicto que conozco?**  
+   Es posible que el conflicto no esté registrado aún o que esté en fase de revisión. Asegúrate de que los filtros aplicados sean correctos y no estén excluyendo el conflicto de la búsqueda. 
 
-**¿Puedo ver solo los conflictos de mi municipio?**
-Sí, con los filtros del archivo. Ver [Buscar y filtrar conflictos](04-archivo-y-filtros.qmd).
+-  **¿Puedo ver solo los conflictos de mi municipio?**  
+   Sí, con los filtros del archivo (ver [Buscar y filtrar conflictos](04-filtros.qmd)).
+
+- **¿Puedo descargar los datos de los conflictos?**  
+Sí, en el archivo de conflictos hay un botón de descarga en formato CSV (ver [Exportar datos](06-compartir-y-exportar.qmd)).
 
 ## Colaboración
 
-**¿Cómo consigo una cuenta?**
-*(pendiente)*
+- **¿Cómo consigo una cuenta?**  
+Pídela a alguien de tu grupo local con rol de editora. Si no conoces a nadie, solicítala escribiendo a [{{< var entidad.contacto >}}](mailto:{{< var entidad.contacto >}}) indicando tu nombre, correo y grupo local. 
 
-**He enviado un conflicto, ¿cuándo se publica?**
-*(pendiente)*
+-  **¿Puedo usar mi teléfono móvil para registrar un conflicto ambiental?**  
+Sí, la aplicación es compatible con teléfonos móviles y tabletas. El mapa de ubicación refleja la ubicación actual del teléfono, por lo que puedes registrarla pulsando sobre el botón [Usa mi ubicación]{.ui}. Esto permite registrar rápidamente un conflicto ambiental sobre el terreno, siempre que haya cobertura.
 
-**¿Puedo editar un conflicto registrado por otro grupo?**
-*(pendiente)*
+- **He enviado un conflicto, ¿cuándo se publica?**  
+Para que un conflicto ambiental aparezca en el mapa, tiene que ser revisado y publicado por una persona con rol de editora. El proceso de revisión puede tardar unos días. Si después de una semana sigue sin aparecer, escríbele a la persona editora de tu grupo local o a [{{< var entidad.contacto >}}](mailto: {{< var entidad.contacto >}}) para que lo revise.
+
+-  **¿Puedo añadir un conflicto de un territorio que no es el mío?**  
+Sí, pero asegúrate de que el caso no esté ya registrado, y de que la información que aportas es precisa y veraz. En última instancia, contacta con el grupo local del territorio para que lo revise. 
+
+-  **¿Puedo editar un conflicto registrado por otro grupo?**  
+No, solo puedes editar los conflictos que hayas registrado tú o tu grupo local. Si quieres añadir información a un conflicto registrado por otro grupo, ponte en contacto con la persona editora de ese grupo para que lo haga.
+
+
 
 ## Datos
 
-**¿Puedo reutilizar los datos en un trabajo o una investigación?**
-*(pendiente)* Ver [Licencia y uso de los datos](01-introduccion.qmd#licencia-y-uso-de-los-datos).
+-  **¿Puedo reutilizar los datos en un trabajo o una investigación?**  
+Sí, siempre que se respeten los términos de la licencia (ver [Licencia y uso de los datos](index.qmd#licencia)).
 
-**¿Con qué frecuencia se actualiza el mapa?**
-*(pendiente)*

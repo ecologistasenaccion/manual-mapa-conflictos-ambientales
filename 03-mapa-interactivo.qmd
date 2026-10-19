@@ -4,16 +4,16 @@
 
 Lo primero de debemos hacer es seleccionar la región que queremos explorar. Hay dos formas posibles de hacerlo:
 
-1.  Haz clic sobre la región en el mapa de la página principal.
-2.  Haz clic en el botón de selección de región (1) y elige la región en el desplegable.
+-  Haz clic sobre la región en el mapa de la página principal.
+-  Haz clic en el botón de selección de región (1) y elige la región en el desplegable.
 
 ## Navegar por el mapa
 
 Existen distintas formas de desplazarse por el mapa y acercar o alejar la vista:
 
-1. Haz clic y arrastra con el ratón para desplazar el mapa.
-2. Usa la rueda del ratón o los botones [+]{.ui} y [−]{.ui} para acercar y alejar.
-3. Haz doble clic sobre una zona para ampliarla.
+-  Haz clic y arrastra con el ratón para desplazar el mapa.
+-  Usa la rueda del ratón o los botones [+]{.ui} y [−]{.ui} para acercar y alejar.
+-  Haz doble clic sobre una zona para ampliarla.
 
 ## Capas del mapa
 

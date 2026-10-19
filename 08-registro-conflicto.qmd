@@ -39,12 +39,11 @@ Si se accede a la aplicación desde un teléfono móvil, el mapa de ubicación r
 Es importante incluir al menos una foto en la imagen principal y una descripción detallada del conflicto.
 :::
 
-Una vez rellenados los campos del formulario, pulsa el botón [Envía a revisión]{.ui} para que la persona con el rol de editora pueda revisarla y publicarla. Tras esto, aparecerá una nueva tarjeta en el escritorio de gestión correspondiente al conflicto registrado.
+Una vez rellenados los campos del formulario, pulsa el botón [Envía a revisión]{.ui} para que la persona con el rol de editora pueda revisarla y publicarla. Tras esto, aparecerá una nueva tarjeta en el escritorio de gestión correspondiente al conflicto registrado, con el rótulo **en revisión**.
+
+![Tarjeta de conflicto en revisión](/assets/capturas/tarjeta-conflicto-en-revision.png)
 
 :::{.callout-warning}
 El conflicto ambiental registrado no aparecerá en el mapa de la aplicación hasta que una persona con el rol de editora lo revise y publique. Ten paciencia porque el proceso de revisión puede tardar unos días.
 :::
 
-## Modificar un conflicto registrado
-
-Para modificar un conflicto ambiental registrado hay que hacer clic en el botón 
