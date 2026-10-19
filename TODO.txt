@@ -1,8 +1,11 @@
 Tareas pendientes:
 
-- Añadir un botón de buscar.
-- Añadir un filtro por fecha.
+- Añadir un botón de buscar para realizar búsquedas sintácticas.
+- Añadir un filtro por fecha. Podrías ser algo como desde ... hasta.
 - Añadir un botón de compartir en la ficha de cada conflicto.
 - Indicar campos obligatorios en el formulario de conflictos.
 - Quitar la opción de añadir nuevo nivel de gravedad.
+- Quitar el logo de Ecologistas del pié de página (ya aparece en la cabecera)
+- Cuando se hace clic en el icono de borrar conflicto, no pregunta, lo borra directamente. Convendría que saliese un mensaje de aviso.
+- Las editoras (moderadoras) solo deben ver los conflictos de su región.
 
